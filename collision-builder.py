@@ -8,8 +8,9 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-import os
+import os, sys
 import webbrowser
+import json
 
 
 
@@ -143,7 +144,7 @@ class CollisionBuider:
         for n, alpha in zip(n_bounces, self.incoming_angles):
             x_path, y_path = [self.point_of_contact[0]], [self.point_of_contact[1]]
             
-            for i in range(n):
+            for i in range(int(n)):
                 xi, yi, alpha = newCollsionPoint(x_path[-1], y_path[-1], alpha, self.width, self.height)
                 x_path.append(xi)
                 y_path.append(yi)
@@ -253,10 +254,10 @@ class CollisionBuider:
 ##################################################################
 
 def clear_terminal():
-    # For Windows
+    #For Windows
     if os.name == 'nt':
         _ = os.system('cls')
-    # For Unix/Linux/MacOS
+    #For Unix/Linux/MacOS
     else:
         _ = os.system('clear')
 
@@ -264,20 +265,24 @@ def get_random_point(width, height):
     return (np.random.uniform(0, width), np.random.uniform(0, height))
 
 def get_random_angles(n):
-    return np.random.uniform(0, 360, size=n)
+    return list(np.random.uniform(0, 360, size=n))
+
+
 
 def print_parameters(params):
     print("\nCurrent Parameters:\n")
     for i, (key, value) in enumerate(params.items(), 1):
         print(f"{i}. {key}: {value}")
-    print(f"\n{len(params) + 1}. Continue")
+
+    print(f'\n{len(params)+1}. Load parameters from file')
+    print(f"\n0. Continue")
 
 
 def get_user_choice(params):
     while True:
         try:
             choice = int(input("\nEnter the number of the parameter you want to modify (or Continue): "))
-            if 1 <= choice <= len(params) + 1:
+            if 0 <= choice <= len(params) + 1:
                 return choice
             else:
                 print("Invalid number.")
@@ -289,22 +294,31 @@ def get_user_choice(params):
 def modify_parameter(params, choice):
     key = list(params.keys())[choice - 1]
     current_value = params[key]
-    
+
     print(f"\nCurrent {key}: {current_value}")
+
+    # Is listed parameter
+    if isinstance(current_value, (list, tuple, np.ndarray)):
+        new_list = []
+        km = params['n_primaries']
+        for k in range(km):
+            new_value = float(input(f"New ({k+1}/{km}): "))
+            new_list.append(new_value)
+        params[key] = new_list
+        return
+            
+    # Non-List parameter
     new_value = input(f"New {key}: ")
     
     # Convert the input to the appropriate type
-    if isinstance(current_value, int):
+    if  isinstance(current_value, int):
         params[key] = int(new_value)
     elif isinstance(current_value, float):
         params[key] = float(new_value)
-    elif isinstance(current_value, tuple):
-        params[key] = tuple(map(float, new_value.strip('()').split(',')))
-    elif isinstance(current_value, list):
-        params[key] = list(map(float, new_value.strip('[]').split(',')))
+    elif isinstance(current_value, bool):
+        params[key] = bool(new_value)
     else:
         params[key] = new_value
-
 
     # Some changes demand other recalculations
     if key == 'n_primaries':
@@ -314,17 +328,66 @@ def modify_parameter(params, choice):
 
 
 
+def store_parameters(params, filename):
+    with open(filename, 'w') as f:
+        json.dump(params, f, indent=4)
+    print(f"Parameters saved to {filename}")
+
+def load_parameters(filename):
+    try:
+        with open(filename, 'r') as f:
+            loaded_params = json.load(f)
+        print(f"Parameters loaded from {filename}")
+        return loaded_params
+    except FileNotFoundError:
+        print(f"File {filename} not found. Using default parameters.")
+        return None
+    except json.JSONDecodeError:
+        print(f"Error decoding {filename}. Using default parameters.")
+        return None
+
+
+
 def input_mask(params):
-    clear_terminal()
+
+    # Can pass a file to load when calling the file
+    # python3 collision-builder.py file.json
+    if len(sys.argv) > 1:
+        filename = str(sys.argv[-1])
+        loaded_params = load_parameters(filename)
+        if loaded_params:
+            params = loaded_params
+            params['parameter_file'] = filename
+            return params
+        else:
+            print(f'Could not load file: {filename}!')
+
+
     while True:
         print_parameters(params)
         choice = get_user_choice(params)
         
-        if choice == len(params) + 1:
+        # Continue
+        if choice == 0:
             break
+
+        # Load Parameter from file
+        elif choice == len(params) + 1: 
+            clear_terminal()
+            filename = input("Parameter file: ")
+            loaded_params = load_parameters(filename)
+            if loaded_params:
+                params = loaded_params
+            else:
+                print(f'Could not load file: {filename}!')
+
+        # Change Parameters
         else:
             modify_parameter(params, choice)
             clear_terminal()
+
+    if params['store_parameters']:
+        store_parameters(params, filename=params['parameter_file'])
 
     clear_terminal()
     print("\nParameters:")
@@ -341,27 +404,29 @@ def input_mask(params):
 
 def main():
     params = {
-        'width': 200,
-        'height': 100,
-        'name': 'anim.svg',
-        'point_of_contact': get_random_point(200, 100),
-        'incoming_angles': get_random_angles(2),
-        'n_border_collisions': [4, 4],
-        'n_primaries': 2,
+        'width': 800,
+        'height': 300,
+        'name': 'animations/test.svg',
+        'point_of_contact': get_random_point(800, 300),
+        'incoming_angles': get_random_angles(3),
+        'n_border_collisions': [15, 15, 15],
+        'n_primaries': 3,
         'primary_begin': 0,
-        'primary_stroke_width': 1,
-        'primary_duration': 1.,
+        'primary_stroke_width': 4.5,
+        'primary_duration': 3.,
         'primary_color': '#ffffff',
-        'n_secondaries': 20,
-        'alpha_std': 30.,
-        'length_mean': 50.,
-        'length_std': 30.,
-        'secondary_stroke_width': 0.4,
+        'n_secondaries': 30,
+        'alpha_std': 40.,
+        'length_mean': 200.,
+        'length_std': 100.,
+        'secondary_stroke_width': 2.5,
         'secondary_duration': 0.3,
         'secondary_color': '#00c666',
         'box_color': '#3c3c3c',
         'background_color': '#dc7474',
         'relative_margin': 0.05,
+        'store_parameters': 1,
+        'parameter_file': 'configs/test.json',
     }
 
     params = input_mask(params)

@@ -1,0 +1,34 @@
+{
+    "width": 800,
+    "height": 300,
+    "name": "animations/offset.svg",
+    "point_of_contact": [
+        600.0,
+        150.0
+    ],
+    "incoming_angles": [
+        30.0,
+        210.0
+    ],
+    "n_border_collisions": [
+        20.0,
+        20.0
+    ],
+    "n_primaries": 2,
+    "primary_begin": 0,
+    "primary_stroke_width": 4,
+    "primary_duration": 3.0,
+    "primary_color": "#ffffff",
+    "n_secondaries": 30,
+    "alpha_std": 80.0,
+    "length_mean": 200.0,
+    "length_std": 90.0,
+    "secondary_stroke_width": 3.0,
+    "secondary_duration": 0.2,
+    "secondary_color": "#00c666",
+    "box_color": "#3c3c3c",
+    "background_color": "#dc7474",
+    "relative_margin": 0.05,
+    "store_parameters": 1,
+    "parameter_file": "configs/offset.json"
+}

@@ -1,0 +1,469 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+
+<path id="box"
+  d="M0,0 L800,0 L800,300 L0,300 Z"
+  stroke="#dc7474" stroke-width="0" fill="#dc7474"> 
+
+</path>
+
+<g transform="scale(0.95,0.867) translate(20.0, 20.0)"> 
+
+<path id="box"
+  d="M0,0 L800,0 L800,300 L0,300 Z"
+  stroke="#3c3c3c" stroke-width="0.5" fill="#3c3c3c"> 
+
+</path>
+
+<path id="primary-path"
+  d="M800.0,87.49171313018572 L592.556,0.000 L0.000,249.917 L118.749,300.000 L800.000,12.675 L769.947,0.000 L58.642,300.000 L0.000,275.267 L652.662,0.000 L800.000,62.141 L236.033,300.000 L0.000,200.451 L475.271,0.000 L800.000,136.958 L413.424,300.000 L97.229,166.642"
+  stroke="#ffffff" stroke-width="4.5" fill="none"
+  stroke-dasharray="5972.171524026153" stroke-dashoffset="5972.171524026153">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="5972.171524026153" 
+    to="0" 
+    begin="0s"
+    dur="3.0s" 
+    fill="freeze"/> 
+</path>
+
+
+<path id="primary-path"
+  d="M441.449568424265,300.0 L102.112,0.000 L0.000,90.275 L237.226,300.000 L576.563,0.000 L800.000,197.535 L684.099,300.000 L344.762,0.000 L5.424,300.000 L0.000,295.204 L333.913,0.000 L673.251,300.000 L800.000,187.944 L587.412,0.000 L248.074,300.000 L97.229,166.642"
+  stroke="#ffffff" stroke-width="4.5" fill="none"
+  stroke-dasharray="4730.690605987693" stroke-dashoffset="4730.690605987693">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="4730.690605987693" 
+    to="0" 
+    begin="0s"
+    dur="3.0s" 
+    fill="freeze"/> 
+</path>
+
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L26.820,-4.716"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="185.25884108289088" stroke-dashoffset="185.25884108289088">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="185.25884108289088" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-72.364,-67.437"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="289.0580421107539" stroke-dashoffset="289.0580421107539">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="289.0580421107539" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L60.228,-19.432"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="189.71651768057308" stroke-dashoffset="189.71651768057308">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="189.71651768057308" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-45.687,-80.488"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="285.4784002115042" stroke-dashoffset="285.4784002115042">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="285.4784002115042" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-19.297,15.274"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="191.02427987641846" stroke-dashoffset="191.02427987641846">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="191.02427987641846" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L285.263,-145.710"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="364.58250436637076" stroke-dashoffset="364.58250436637076">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="364.58250436637076" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L161.022,12.885"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="166.46500978076642" stroke-dashoffset="166.46500978076642">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="166.46500978076642" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L403.670,7.819"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="345.15267027513414" stroke-dashoffset="345.15267027513414">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="345.15267027513414" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L103.232,92.757"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="74.12779415282856" stroke-dashoffset="74.12779415282856">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="74.12779415282856" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L107.124,125.831"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="41.99299182868623" stroke-dashoffset="41.99299182868623">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="41.99299182868623" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-49.489,-47.735"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="259.77601190629684" stroke-dashoffset="259.77601190629684">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="259.77601190629684" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L183.078,-31.922"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="216.32739496044394" stroke-dashoffset="216.32739496044394">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="216.32739496044394" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L185.835,-159.710"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="338.1656547058302" stroke-dashoffset="338.1656547058302">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="338.1656547058302" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-104.577,99.408"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="212.71077111971553" stroke-dashoffset="212.71077111971553">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="212.71077111971553" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L339.210,-44.358"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="321.0535375888918" stroke-dashoffset="321.0535375888918">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="321.0535375888918" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-267.212,2.199"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="399.82318751881127" stroke-dashoffset="399.82318751881127">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="399.82318751881127" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-12.561,181.534"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="110.7953800043032" stroke-dashoffset="110.7953800043032">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="110.7953800043032" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-46.612,239.576"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="161.2756735989591" stroke-dashoffset="161.2756735989591">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="161.2756735989591" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L24.948,-112.488"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="288.33597589381446" stroke-dashoffset="288.33597589381446">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="288.33597589381446" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-166.793,87.530"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="275.62001981792315" stroke-dashoffset="275.62001981792315">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="275.62001981792315" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-73.975,165.972"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="171.20563578911973" stroke-dashoffset="171.20563578911973">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="171.20563578911973" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L317.975,-128.179"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="368.30408994680806" stroke-dashoffset="368.30408994680806">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="368.30408994680806" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-44.649,81.205"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="165.6161981128776" stroke-dashoffset="165.6161981128776">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="165.6161981128776" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-44.755,290.166"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="188.1959815049229" stroke-dashoffset="188.1959815049229">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="188.1959815049229" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L256.217,-61.210"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="277.83722318223516" stroke-dashoffset="277.83722318223516">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="277.83722318223516" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-152.170,80.253"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="263.93716217920513" stroke-dashoffset="263.93716217920513">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="263.93716217920513" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L44.807,132.026"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="62.81965619899629" stroke-dashoffset="62.81965619899629">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="62.81965619899629" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-73.179,68.975"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="196.41235988842564" stroke-dashoffset="196.41235988842564">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="196.41235988842564" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L-5.353,35.118"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="166.79754656214385" stroke-dashoffset="166.79754656214385">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="166.79754656214385" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+<path id="secondary-path"
+  d="M97.22912196214804,166.6415722965753 L94.563,-12.637"
+  stroke="#00c666" stroke-width="2.5" fill="none"
+  stroke-dasharray="179.29797032115056" stroke-dashoffset="179.29797032115056">    
+  
+  <animate 
+    attributeName="stroke-dashoffset" 
+    from="179.29797032115056" 
+    to="0" 
+    begin="3.0s"
+    dur="0.3s" 
+    fill="freeze"/> 
+</path>
+
+</g>
+
+</svg>

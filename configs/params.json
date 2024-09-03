@@ -1,0 +1,34 @@
+{
+    "width": 200,
+    "height": 100,
+    "name": "anim.svg",
+    "point_of_contact": [
+        82.88079692976123,
+        52.43348319054929
+    ],
+    "incoming_angles": [
+        112.97170409967049,
+        208.77339997987326
+    ],
+    "n_border_collisions": [
+        4,
+        4
+    ],
+    "n_primaries": 2,
+    "primary_begin": 0,
+    "primary_stroke_width": 1,
+    "primary_duration": 1.0,
+    "primary_color": "#ffffff",
+    "n_secondaries": 20,
+    "alpha_std": 30.0,
+    "length_mean": 50.0,
+    "length_std": 30.0,
+    "secondary_stroke_width": 0.4,
+    "secondary_duration": 0.3,
+    "secondary_color": "#00c666",
+    "box_color": "#3c3c3c",
+    "background_color": "#dc7474",
+    "relative_margin": 0.05,
+    "store_parameters": 1,
+    "parameter_file": "params.json"
+}

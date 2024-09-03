@@ -1,0 +1,35 @@
+{
+    "width": 800,
+    "height": 300,
+    "name": "animations/example.svg",
+    "point_of_contact": [
+        97.22912196214804,
+        166.6415722965753
+    ],
+    "incoming_angles": [
+        22.868084685385636,
+        41.47911003564563,
+        121.36340063350448
+    ],
+    "n_border_collisions": [
+        15,
+        15
+    ],
+    "n_primaries": 3,
+    "primary_begin": 0,
+    "primary_stroke_width": 4.5,
+    "primary_duration": 3.0,
+    "primary_color": "#ffffff",
+    "n_secondaries": 30,
+    "alpha_std": 40.0,
+    "length_mean": 200.0,
+    "length_std": 100.0,
+    "secondary_stroke_width": 2.5,
+    "secondary_duration": 0.3,
+    "secondary_color": "#00c666",
+    "box_color": "#3c3c3c",
+    "background_color": "#dc7474",
+    "relative_margin": 0.05,
+    "store_parameters": 1,
+    "parameter_file": "configs/example.json"
+}
