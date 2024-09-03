@@ -1,5 +1,6 @@
 # SVG Collisions
 
+![file](animations/offset.svg)
 
 ## How to?
 
@@ -20,6 +21,5 @@ via a CL interface:
 
 
 ![file](animations/example.svg)
-![file](animations/offset.svg)
 ![file](animations/test.svg)
 ![file](animations/anim.svg)
