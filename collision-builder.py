@@ -1,8 +1,15 @@
+#
+# Created on:  Tue Sep 03 2024
+# By:  Lukas Mettler (lukas.mettler@student.kit.edu)
+#
+# https://github.com/LEMettler
+#
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import os
 import webbrowser
-
 
 
 
@@ -22,7 +29,6 @@ def newCollsionPoint(x, y, alpha, width, height):
     yright = angle2line(width, x, y, alpha)
     xbottom = inv_angle2line(0, x, y, alpha)
     xtop = inv_angle2line(height, x, y, alpha)
-
 
     if alpha < 90: # collision top-right
         if xtop > width:
@@ -159,15 +165,13 @@ class CollisionBuider:
             new_path = [[self.point_of_contact[0], x1], [self.point_of_contact[1], y1]]
             self.secondary_paths.append(new_path)
 
+
     def plotResult(self):
         plt.figure(figsize=(10, self.height/self.width*10))
-
         plt.plot([0, self.width, self.width, 0, 0], [0, 0, self.height, self.height, 0], color='k')
-
         for primary_path in self.primary_paths:
             plt.plot(*primary_path, color='blue', linewidth=2)
 
-        
         for secondary_path in self.secondary_paths:
             plt.plot(*secondary_path, color='orange', linewidth=1)
 
@@ -179,7 +183,7 @@ class CollisionBuider:
                 primary_stroke_width=2, secondary_stroke_width=1,
                   primary_duration=2, secondary_duration=1, primary_begin=0, background_color='#dc7474', box_color='#3c3c3c'):
         
-        secondary_begin= (primary_duration + primary_begin)
+        secondary_begin = (primary_duration + primary_begin)
 
         #begin the string
         total_string = f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.width}" height="{self.height}" viewBox="0 0 {self.width} {self.height}">\n\n'
@@ -193,12 +197,11 @@ class CollisionBuider:
         total_string += box_string + '\n\n'   
 
 
-
-        #possible rescaling to add a margin
-        trans_width = self.width * self.relative_margin / 2
-        trans_height = self.height * self.relative_margin / 2
-        total_string += f'<g transform="scale({1-self.relative_margin}) translate({trans_width}, {trans_height})"> \n\n'
-
+        # rescaling and translation to center
+        scale_w = 1 - self.relative_margin
+        scale_h = round(1 - self.width * self.relative_margin / self.height, 3)
+        translation = self.relative_margin*self.width/2
+        total_string += f'<g transform="scale({scale_w},{scale_h}) translate({translation}, {translation})"> \n\n'
 
 
         # surrounding box
@@ -248,10 +251,6 @@ class CollisionBuider:
 
 
 ##################################################################
-##################################################################
-##################################################################
-##################################################################
-
 
 def clear_terminal():
     # For Windows
@@ -335,6 +334,9 @@ def input_mask(params):
     return params
 
 
+##################################################################
+##################################################################
+##################################################################
 
 
 def main():
@@ -394,12 +396,5 @@ def main():
     webbrowser.open(params['name'])
 
     
-
-
-
-
-    
-
-
 if __name__ == "__main__":
     main()
