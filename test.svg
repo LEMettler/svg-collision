@@ -1,10 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 200 100">
 
+<path id="box"
+  d="M0,0 L200,0 L200,100 L0,100 Z"
+  stroke="#dc7474" stroke-width="0" fill="#dc7474"> 
+
+</path>
+
 <g transform="scale(0.9) translate(10.0, 5.0)"> 
+
+<path id="box"
+  d="M0,0 L200,0 L200,100 L0,100 Z"
+  stroke="#3c3c3c" stroke-width="0.5" fill="#3c3c3c"> 
+
+</path>
 
 <path id="primary-path"
   d="M200.0,60.07323983868285 L0.000,95.339 L26.436,100.000 L200.000,69.396 L90.000,50.000"
-  stroke="#ffffff" stroke-width="2" fill="none"
+  stroke="#ffffff" stroke-width="1" fill="none"
   stroke-dasharray="517.8675720617299" stroke-dashoffset="517.8675720617299">    
   
   <animate 
@@ -19,7 +31,7 @@
 
 <path id="primary-path"
   d="M151.7144432479627,0 L134.082,100.000 L116.449,0.000 L98.816,100.000 L90.000,50.000"
-  stroke="#ffffff" stroke-width="2" fill="none"
+  stroke="#ffffff" stroke-width="1" fill="none"
   stroke-dasharray="355.3993141600107" stroke-dashoffset="355.3993141600107">    
   
   <animate 
@@ -34,7 +46,7 @@
 
 <path id="primary-path"
   d="M102.22226932211179,100 L98.730,0.000 L95.238,100.000 L91.746,0.000 L90.000,50.000"
-  stroke="#ffffff" stroke-width="2" fill="none"
+  stroke="#ffffff" stroke-width="1" fill="none"
   stroke-dasharray="350.2133405045876" stroke-dashoffset="350.2133405045876">    
   
   <animate 
@@ -48,289 +60,283 @@
 
 
 <path id="secondary-path"
-  d="M90.0,50.0 L67.198,69.471"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="29.984201240775214" stroke-dashoffset="29.984201240775214">    
+  d="M90.0,50.0 L53.678,97.227"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="59.57925014177144" stroke-dashoffset="59.57925014177144">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="29.984201240775214" 
+    from="59.57925014177144" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L42.705,89.469"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="61.60033331991852" stroke-dashoffset="61.60033331991852">    
+  d="M90.0,50.0 L13.615,67.032"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="78.26070065970882" stroke-dashoffset="78.26070065970882">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="61.60033331991852" 
+    from="78.26070065970882" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L37.839,86.232"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="63.51005708271321" stroke-dashoffset="63.51005708271321">    
+  d="M90.0,50.0 L54.185,85.049"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="50.111040989607" stroke-dashoffset="50.111040989607">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="63.51005708271321" 
+    from="50.111040989607" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L72.329,57.829"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="19.32779215067852" stroke-dashoffset="19.32779215067852">    
+  d="M90.0,50.0 L75.586,92.472"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="44.85115633372334" stroke-dashoffset="44.85115633372334">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="19.32779215067852" 
+    from="44.85115633372334" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L68.448,82.550"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="39.03839807842499" stroke-dashoffset="39.03839807842499">    
+  d="M90.0,50.0 L59.752,123.255"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="79.25428326112386" stroke-dashoffset="79.25428326112386">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="39.03839807842499" 
+    from="79.25428326112386" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L65.440,74.291"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="34.54284936711562" stroke-dashoffset="34.54284936711562">    
+  d="M90.0,50.0 L41.839,95.212"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="66.05794073887016" stroke-dashoffset="66.05794073887016">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="34.54284936711562" 
+    from="66.05794073887016" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L56.816,65.038"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="36.432095261823406" stroke-dashoffset="36.432095261823406">    
+  d="M90.0,50.0 L84.692,79.197"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="29.675728882433788" stroke-dashoffset="29.675728882433788">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="36.432095261823406" 
+    from="29.675728882433788" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L68.060,64.394"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="26.24016877598369" stroke-dashoffset="26.24016877598369">    
+  d="M90.0,50.0 L30.971,64.724"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="60.838116574892126" stroke-dashoffset="60.838116574892126">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="26.24016877598369" 
+    from="60.838116574892126" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L67.730,62.881"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="25.727101654720766" stroke-dashoffset="25.727101654720766">    
+  d="M90.0,50.0 L10.356,35.216"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="81.00474409850902" stroke-dashoffset="81.00474409850902">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="25.727101654720766" 
+    from="81.00474409850902" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L64.106,73.347"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="34.865027320023515" stroke-dashoffset="34.865027320023515">    
+  d="M90.0,50.0 L60.563,71.715"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="36.57977815800921" stroke-dashoffset="36.57977815800921">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="34.865027320023515" 
+    from="36.57977815800921" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L79.464,48.635"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="10.623912888972729" stroke-dashoffset="10.623912888972729">    
+  d="M90.0,50.0 L36.882,98.909"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="72.20567253817224" stroke-dashoffset="72.20567253817224">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="10.623912888972729" 
+    from="72.20567253817224" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L46.117,97.393"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="64.58957549767106" stroke-dashoffset="64.58957549767106">    
+  d="M90.0,50.0 L73.087,105.356"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="57.8820769763702" stroke-dashoffset="57.8820769763702">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="64.58957549767106" 
+    from="57.8820769763702" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L55.308,63.394"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="37.188334421009664" stroke-dashoffset="37.188334421009664">    
+  d="M90.0,50.0 L41.358,88.301"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="61.911506232835585" stroke-dashoffset="61.911506232835585">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="37.188334421009664" 
+    from="61.911506232835585" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L58.617,56.170"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="31.984041365354226" stroke-dashoffset="31.984041365354226">    
+  d="M90.0,50.0 L71.252,101.350"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="54.66528965305062" stroke-dashoffset="54.66528965305062">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="31.984041365354226" 
+    from="54.66528965305062" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L77.863,44.343"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="13.391076145751045" stroke-dashoffset="13.391076145751045">    
+  d="M90.0,50.0 L38.333,102.011"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="73.31138830062997" stroke-dashoffset="73.31138830062997">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="13.391076145751045" 
+    from="73.31138830062997" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L74.020,65.939"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="22.570095715860663" stroke-dashoffset="22.570095715860663">    
+  d="M90.0,50.0 L27.067,97.759"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="79.00302437153357" stroke-dashoffset="79.00302437153357">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="22.570095715860663" 
+    from="79.00302437153357" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L44.205,75.486"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="52.40882182038352" stroke-dashoffset="52.40882182038352">    
+  d="M90.0,50.0 L65.449,153.352"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="106.228412257155" stroke-dashoffset="106.228412257155">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="52.40882182038352" 
+    from="106.228412257155" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L71.512,41.700"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="20.265863571451902" stroke-dashoffset="20.265863571451902">    
+  d="M90.0,50.0 L41.185,53.139"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="48.915760890431315" stroke-dashoffset="48.915760890431315">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="20.265863571451902" 
+    from="48.915760890431315" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L57.453,83.422"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="46.6513748611157" stroke-dashoffset="46.6513748611157">    
+  d="M90.0,50.0 L75.773,56.104"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="15.480654480894003" stroke-dashoffset="15.480654480894003">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="46.6513748611157" 
+    from="15.480654480894003" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
 </path>
 
 <path id="secondary-path"
-  d="M90.0,50.0 L48.055,106.646"
-  stroke="#00c666" stroke-width="1" fill="none"
-  stroke-dasharray="70.48514508069641" stroke-dashoffset="70.48514508069641">    
+  d="M90.0,50.0 L48.023,63.096"
+  stroke="#00c666" stroke-width="0.5" fill="none"
+  stroke-dasharray="43.9726962520253" stroke-dashoffset="43.9726962520253">    
   
   <animate 
     attributeName="stroke-dashoffset" 
-    from="70.48514508069641" 
+    from="43.9726962520253" 
     to="0" 
     begin="2s"
-    dur="0.5s" 
+    dur="0.2s" 
     fill="freeze"/> 
-</path>
-
-<path id="box"
-  d="M0,0 L200,0 L200,100 L0,100 Z"
-  stroke="#ffffff" stroke-width="0.5" fill="none"> 
-
 </path>
 
 </g>
