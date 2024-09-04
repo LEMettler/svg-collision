@@ -7,28 +7,31 @@
         150.0
     ],
     "incoming_angles": [
-        30.0,
-        210.0
+        35.0,
+        215.0
     ],
     "n_border_collisions": [
-        20.0,
-        20.0
+        15,
+        15
     ],
     "n_primaries": 2,
     "primary_begin": 0,
-    "primary_stroke_width": 4,
-    "primary_duration": 3.0,
+    "primary_stroke_width": 3.5,
+    "primary_duration": 4.0,
     "primary_color": "#ffffff",
-    "n_secondaries": 30,
-    "alpha_std": 80.0,
-    "length_mean": 200.0,
-    "length_std": 90.0,
-    "secondary_stroke_width": 3.0,
-    "secondary_duration": 0.2,
-    "secondary_color": "#00c666",
+    "n_secondaries": 50,
+    "alpha_std": 130.0,
+    "length_mean": 300.0,
+    "length_std": 140.0,
+    "secondary_stroke_width": 2.5,
+    "secondary_duration": 0.3,
+    "secondary_color": "0",
     "box_color": "#3c3c3c",
-    "background_color": "#dc7474",
+    "background_color": "#c62100",
     "relative_margin": 0.05,
     "store_parameters": 1,
-    "parameter_file": "configs/offset.json"
+    "parameter_file": "configs/offset.json",
+    "dur_fade_primary": 1.0,
+    "dur_fade_secondary": 0.5,
+    "dur_freeze_secondary": 1.5
 }

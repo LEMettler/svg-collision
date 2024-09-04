@@ -1,467 +1,1317 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
 
-<path id="box"
-  d="M0,0 L800,0 L800,300 L0,300 Z"
-  stroke="#dc7474" stroke-width="0" fill="#dc7474"> 
+<path d="M0,0 L800,0 L800,300 L0,300 Z"
+  stroke="#c62100" stroke-width="0" fill="#c62100"> 
 
 </path>
 
 <g transform="scale(0.95,0.867) translate(20.0, 20.0)"> 
 
-  <path id="box"
-  d="M0,0 L800,0 L800,300 L0,300 Z"
+<path d="M0,0 L800,0 L800,300 L0,300 Z"
   stroke="#3c3c3c" stroke-width="0.5" fill="#3c3c3c"> 
 
 </path>
 
-<path id="primary-path"
-  d="M175.57528611262433,0.0 L0.000,101.368 L344.040,300.000 L800.000,36.751 L736.345,0.000 L216.730,300.000 L0.000,174.871 L302.886,0.000 L800.000,287.009 L777.499,300.000 L257.884,0.000 L0.000,148.889 L261.731,300.000 L781.347,0.000 L800.000,10.770 L299.038,300.000 L0.000,127.350 L220.577,0.000 L740.192,300.000 L800.000,265.470 L600.000,150.000"
-  stroke="#ffffff" stroke-width="4" fill="none"
-  stroke-dasharray="6899.999999999998" stroke-dashoffset="6899.999999999998">    
+<path d="M129.77818078497398,0.0 L558.223,300.000 L800.000,130.706 L613.333,0.000 L184.889,300.000 L0.000,170.540 L243.556,0.000 L672.000,300.000 L800.000,210.374 L499.555,0.000 L71.111,300.000 L0.000,250.208 L357.333,0.000 L785.778,300.000 L800.000,290.042 L600.000,150.000"
+  stroke="#ffffff" stroke-width="3.5" fill="none"
+  stroke-dasharray="4968.823367520129" stroke-dashoffset="4968.823367520129">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="6899.999999999998" 
+<animate 
+  id="primarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="4968.823367520129" 
     to="0" 
-    begin="0s"
-    dur="3.0s" 
+    begin="0s;secondaryfade.end"
+    dur="4.0s" 
     fill="freeze"/> 
+
+ <animate id="primaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end" 
+  dur="1.0s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="4968.823367520129" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
 
-<path id="primary-path"
-  d="M800.0,170.42833102431882 L575.575,300.000 L55.960,0.000 L0.000,32.309 L463.655,300.000 L800.000,105.811 L616.730,0.000 L97.114,300.000 L0.000,243.931 L422.501,0.000 L800.000,217.949 L657.884,300.000 L138.269,0.000 L0.000,79.829 L381.347,300.000 L800.000,58.290 L699.038,0.000 L179.423,300.000 L0.000,196.410 L340.192,0.000 L600.000,150.000"
-  stroke="#ffffff" stroke-width="4" fill="none"
-  stroke-dasharray="7159.143337951359" stroke-dashoffset="7159.143337951359">    
+<path d="M270.22181921502585,300.0 L0.000,110.789 L158.223,0.000 L586.667,300.000 L800.000,150.623 L584.889,0.000 L156.444,300.000 L0.000,190.457 L272.000,0.000 L700.445,300.000 L800.000,230.291 L471.111,0.000 L42.667,300.000 L0.000,270.125 L385.778,0.000 L600.000,150.000"
+  stroke="#ffffff" stroke-width="3.5" fill="none"
+  stroke-dasharray="4968.823367520128" stroke-dashoffset="4968.823367520128">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="7159.143337951359" 
+<animate 
+  id="primarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="4968.823367520128" 
     to="0" 
-    begin="0s"
-    dur="3.0s" 
+    begin="0s;secondaryfade.end"
+    dur="4.0s" 
     fill="freeze"/> 
+
+ <animate id="primaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end" 
+  dur="1.0s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="4968.823367520128" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
 
-<path id="secondary-path"
-  d="M600.0,150.0 L589.805,216.403"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="67.18091493284696" stroke-dashoffset="67.18091493284696">    
+<path d="M600.0,150.0 L588.274,404.177"
+  stroke="#00ffe5" stroke-width="2.5" fill="none"
+  stroke-dasharray="254.44708500903621" stroke-dashoffset="254.44708500903621">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="67.18091493284696" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="254.44708500903621" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="254.44708500903621" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L677.823,-82.142"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="244.83904824463102" stroke-dashoffset="244.83904824463102">    
+<path d="M600.0,150.0 L535.451,-67.088"
+  stroke="#5400ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="226.48156818048264" stroke-dashoffset="226.48156818048264">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="244.83904824463102" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="226.48156818048264" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="226.48156818048264" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L511.416,96.967"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="103.24508683568672" stroke-dashoffset="103.24508683568672">    
+<path d="M600.0,150.0 L606.933,-163.917"
+  stroke="#00e2ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="313.9938108099237" stroke-dashoffset="313.9938108099237">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="103.24508683568672" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="313.9938108099237" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="313.9938108099237" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L791.151,125.425"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="192.7243483364323" stroke-dashoffset="192.7243483364323">    
+<path d="M600.0,150.0 L912.344,415.712"
+  stroke="#ff2c00" stroke-width="2.5" fill="none"
+  stroke-dasharray="410.07504619215933" stroke-dashoffset="410.07504619215933">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="192.7243483364323" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="410.07504619215933" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="410.07504619215933" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L909.667,-11.548"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="349.2724439701094" stroke-dashoffset="349.2724439701094">    
+<path d="M600.0,150.0 L690.915,560.594"
+  stroke="#84ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="420.5391289185137" stroke-dashoffset="420.5391289185137">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="349.2724439701094" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="420.5391289185137" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="420.5391289185137" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L508.418,10.449"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="166.9184912478285" stroke-dashoffset="166.9184912478285">    
+<path d="M600.0,150.0 L641.229,-368.531"
+  stroke="#ffea00" stroke-width="2.5" fill="none"
+  stroke-dasharray="520.1672216760202" stroke-dashoffset="520.1672216760202">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="166.9184912478285" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="520.1672216760202" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="520.1672216760202" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L852.999,220.114"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="262.5344054135369" stroke-dashoffset="262.5344054135369">    
+<path d="M600.0,150.0 L1149.747,396.243"
+  stroke="#ff002e" stroke-width="2.5" fill="none"
+  stroke-dasharray="602.3769418251147" stroke-dashoffset="602.3769418251147">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="262.5344054135369" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="602.3769418251147" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="602.3769418251147" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L594.654,-18.801"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="168.88527579650332" stroke-dashoffset="168.88527579650332">    
+<path d="M600.0,150.0 L669.750,86.332"
+  stroke="#ffe400" stroke-width="2.5" fill="none"
+  stroke-dasharray="94.43882630290473" stroke-dashoffset="94.43882630290473">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="168.88527579650332" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="94.43882630290473" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="94.43882630290473" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L648.889,160.071"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="49.91536504159022" stroke-dashoffset="49.91536504159022">    
+<path d="M600.0,150.0 L585.788,255.080"
+  stroke="#ff5d00" stroke-width="2.5" fill="none"
+  stroke-dasharray="106.03654805046497" stroke-dashoffset="106.03654805046497">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="49.91536504159022" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="106.03654805046497" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="106.03654805046497" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L705.120,-26.775"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="205.66885850903378" stroke-dashoffset="205.66885850903378">    
+<path d="M600.0,150.0 L290.976,145.702"
+  stroke="#ff0096" stroke-width="2.5" fill="none"
+  stroke-dasharray="309.05346088647013" stroke-dashoffset="309.05346088647013">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="205.66885850903378" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="309.05346088647013" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="309.05346088647013" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L606.270,-42.045"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="192.14685338448265" stroke-dashoffset="192.14685338448265">    
+<path d="M600.0,150.0 L904.160,354.178"
+  stroke="#7e00ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="366.336068813484" stroke-dashoffset="366.336068813484">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="192.14685338448265" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="366.336068813484" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="366.336068813484" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L404.284,57.949"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="216.28239098400363" stroke-dashoffset="216.28239098400363">    
+<path d="M600.0,150.0 L911.118,336.673"
+  stroke="#ff0070" stroke-width="2.5" fill="none"
+  stroke-dasharray="362.82354325486034" stroke-dashoffset="362.82354325486034">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="216.28239098400363" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="362.82354325486034" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="362.82354325486034" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L578.924,-42.193"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="193.34499948033417" stroke-dashoffset="193.34499948033417">    
+<path d="M600.0,150.0 L860.633,156.318"
+  stroke="#ff0001" stroke-width="2.5" fill="none"
+  stroke-dasharray="260.7091758759381" stroke-dashoffset="260.7091758759381">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="193.34499948033417" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="260.7091758759381" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="260.7091758759381" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L831.454,108.690"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="235.11175846785758" stroke-dashoffset="235.11175846785758">    
+<path d="M600.0,150.0 L727.699,-67.006"
+  stroke="#0053ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="251.79106812582867" stroke-dashoffset="251.79106812582867">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="235.11175846785758" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="251.79106812582867" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="251.79106812582867" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L621.877,194.640"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="49.71265055337062" stroke-dashoffset="49.71265055337062">    
+<path d="M600.0,150.0 L242.718,400.897"
+  stroke="#0066ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="436.57696424750276" stroke-dashoffset="436.57696424750276">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="49.71265055337062" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="436.57696424750276" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="436.57696424750276" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L755.439,81.222"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="169.97599801549214" stroke-dashoffset="169.97599801549214">    
+<path d="M600.0,150.0 L628.990,286.035"
+  stroke="#00fffc" stroke-width="2.5" fill="none"
+  stroke-dasharray="139.08979821715738" stroke-dashoffset="139.08979821715738">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="169.97599801549214" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="139.08979821715738" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="139.08979821715738" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L447.970,94.651"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="161.79238668150563" stroke-dashoffset="161.79238668150563">    
+<path d="M600.0,150.0 L31.567,-161.817"
+  stroke="#ff4d00" stroke-width="2.5" fill="none"
+  stroke-dasharray="648.3411230323059" stroke-dashoffset="648.3411230323059">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="161.79238668150563" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="648.3411230323059" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="648.3411230323059" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L446.596,-131.612"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="320.6839315152649" stroke-dashoffset="320.6839315152649">    
+<path d="M600.0,150.0 L578.109,344.249"
+  stroke="#c5ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="195.47911608919236" stroke-dashoffset="195.47911608919236">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="320.6839315152649" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="195.47911608919236" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="195.47911608919236" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L779.335,-92.366"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="301.500401354823" stroke-dashoffset="301.500401354823">    
+<path d="M600.0,150.0 L1134.549,92.696"
+  stroke="#ff0044" stroke-width="2.5" fill="none"
+  stroke-dasharray="537.6116157617903" stroke-dashoffset="537.6116157617903">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="301.500401354823" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="537.6116157617903" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="537.6116157617903" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L835.055,100.697"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="240.16996717479802" stroke-dashoffset="240.16996717479802">    
+<path d="M600.0,150.0 L836.320,509.168"
+  stroke="#ff003c" stroke-width="2.5" fill="none"
+  stroke-dasharray="429.94002850907594" stroke-dashoffset="429.94002850907594">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="240.16996717479802" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="429.94002850907594" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="429.94002850907594" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L753.161,293.586"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="209.94063027378664" stroke-dashoffset="209.94063027378664">    
+<path d="M600.0,150.0 L621.053,-87.192"
+  stroke="#00ff60" stroke-width="2.5" fill="none"
+  stroke-dasharray="238.12420482825962" stroke-dashoffset="238.12420482825962">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="209.94063027378664" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="238.12420482825962" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="238.12420482825962" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L543.899,11.408"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="149.51604557902408" stroke-dashoffset="149.51604557902408">    
+<path d="M600.0,150.0 L120.666,227.356"
+  stroke="#00ffbf" stroke-width="2.5" fill="none"
+  stroke-dasharray="485.53556173974494" stroke-dashoffset="485.53556173974494">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="149.51604557902408" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="485.53556173974494" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="485.53556173974494" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L649.732,67.051"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="96.71550417072223" stroke-dashoffset="96.71550417072223">    
+<path d="M600.0,150.0 L746.595,146.421"
+  stroke="#0018ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="146.63886984365206" stroke-dashoffset="146.63886984365206">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="96.71550417072223" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="146.63886984365206" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="146.63886984365206" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L780.844,177.769"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="182.9634477306378" stroke-dashoffset="182.9634477306378">    
+<path d="M600.0,150.0 L852.012,476.824"
+  stroke="#0014ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="412.7034568408068" stroke-dashoffset="412.7034568408068">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="182.9634477306378" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="412.7034568408068" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="412.7034568408068" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L705.926,262.134"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="154.25394146077684" stroke-dashoffset="154.25394146077684">    
+<path d="M600.0,150.0 L991.312,-152.228"
+  stroke="#00ff1b" stroke-width="2.5" fill="none"
+  stroke-dasharray="494.4356123365591" stroke-dashoffset="494.4356123365591">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="154.25394146077684" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="494.4356123365591" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="494.4356123365591" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L551.024,-23.987"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="180.74857031588425" stroke-dashoffset="180.74857031588425">    
+<path d="M600.0,150.0 L790.419,274.695"
+  stroke="#ffb500" stroke-width="2.5" fill="none"
+  stroke-dasharray="227.6139576170219" stroke-dashoffset="227.6139576170219">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="180.74857031588425" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="227.6139576170219" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="227.6139576170219" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L457.349,-48.612"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="244.5325734928772" stroke-dashoffset="244.5325734928772">    
+<path d="M600.0,150.0 L494.928,365.332"
+  stroke="#b6ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="239.59991049973536" stroke-dashoffset="239.59991049973536">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="244.5325734928772" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="239.59991049973536" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="239.59991049973536" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L623.696,-23.875"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="175.48239789725477" stroke-dashoffset="175.48239789725477">    
+<path d="M600.0,150.0 L291.759,47.669"
+  stroke="#b9ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="324.7837384290169" stroke-dashoffset="324.7837384290169">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="175.48239789725477" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="324.7837384290169" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="324.7837384290169" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L461.128,401.673"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="287.4449822572403" stroke-dashoffset="287.4449822572403">    
+<path d="M600.0,150.0 L733.387,-178.633"
+  stroke="#8800ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="354.67072109332946" stroke-dashoffset="354.67072109332946">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="287.4449822572403" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="354.67072109332946" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="354.67072109332946" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
-<path id="secondary-path"
-  d="M600.0,150.0 L781.167,-50.232"
-  stroke="#00c666" stroke-width="3.0" fill="none"
-  stroke-dasharray="270.0260329816846" stroke-dashoffset="270.0260329816846">    
+<path d="M600.0,150.0 L596.631,-339.729"
+  stroke="#e5ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="489.74033381858277" stroke-dashoffset="489.74033381858277">    
   
-  <animate 
-    attributeName="stroke-dashoffset" 
-    from="270.0260329816846" 
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="489.74033381858277" 
     to="0" 
-    begin="3.0s"
-    dur="0.2s" 
+    begin="primarygrow.end"
+    dur="0.3s" 
     fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="489.74033381858277" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L136.868,109.842"
+  stroke="#00ff17" stroke-width="2.5" fill="none"
+  stroke-dasharray="464.86987760658303" stroke-dashoffset="464.86987760658303">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="464.86987760658303" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="464.86987760658303" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L770.523,-210.158"
+  stroke="#ce00ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="398.48719940326436" stroke-dashoffset="398.48719940326436">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="398.48719940326436" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="398.48719940326436" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L362.944,-215.675"
+  stroke="#ff0030" stroke-width="2.5" fill="none"
+  stroke-dasharray="435.7903969598117" stroke-dashoffset="435.7903969598117">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="435.7903969598117" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="435.7903969598117" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L547.367,506.344"
+  stroke="#ff0022" stroke-width="2.5" fill="none"
+  stroke-dasharray="360.21025165448674" stroke-dashoffset="360.21025165448674">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="360.21025165448674" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="360.21025165448674" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L553.024,-124.159"
+  stroke="#45ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="278.1541538508539" stroke-dashoffset="278.1541538508539">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="278.1541538508539" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="278.1541538508539" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L818.663,349.377"
+  stroke="#00ff8d" stroke-width="2.5" fill="none"
+  stroke-dasharray="295.9127182333431" stroke-dashoffset="295.9127182333431">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="295.9127182333431" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="295.9127182333431" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L324.417,421.136"
+  stroke="#51ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="386.6014226457258" stroke-dashoffset="386.6014226457258">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="386.6014226457258" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="386.6014226457258" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L448.287,-79.227"
+  stroke="#0015ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="274.88544216164087" stroke-dashoffset="274.88544216164087">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="274.88544216164087" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="274.88544216164087" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L363.745,191.731"
+  stroke="#0055ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="239.9125541325098" stroke-dashoffset="239.9125541325098">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="239.9125541325098" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="239.9125541325098" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L601.864,319.081"
+  stroke="#00ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="169.0916753173861" stroke-dashoffset="169.0916753173861">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="169.0916753173861" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="169.0916753173861" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L823.719,457.316"
+  stroke="#f0ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="380.1228772915395" stroke-dashoffset="380.1228772915395">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="380.1228772915395" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="380.1228772915395" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L437.308,-33.710"
+  stroke="#00ff67" stroke-width="2.5" fill="none"
+  stroke-dasharray="245.39345447168375" stroke-dashoffset="245.39345447168375">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="245.39345447168375" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="245.39345447168375" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L823.953,-362.381"
+  stroke="#00ff22" stroke-width="2.5" fill="none"
+  stroke-dasharray="559.1861091066544" stroke-dashoffset="559.1861091066544">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="559.1861091066544" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="559.1861091066544" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L543.913,109.348"
+  stroke="#96ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="69.27015142506298" stroke-dashoffset="69.27015142506298">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="69.27015142506298" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="69.27015142506298" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L766.326,239.634"
+  stroke="#0019ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="188.9408858313122" stroke-dashoffset="188.9408858313122">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="188.9408858313122" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="188.9408858313122" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L915.852,345.414"
+  stroke="#dc00ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="371.41461206067885" stroke-dashoffset="371.41461206067885">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="371.41461206067885" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="371.41461206067885" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L638.173,12.301"
+  stroke="#0076ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="142.89247631074056" stroke-dashoffset="142.89247631074056">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="142.89247631074056" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="142.89247631074056" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L515.481,169.086"
+  stroke="#1e00ff" stroke-width="2.5" fill="none"
+  stroke-dasharray="86.6476614066602" stroke-dashoffset="86.6476614066602">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="86.6476614066602" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="86.6476614066602" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L849.428,305.853"
+  stroke="#00ff60" stroke-width="2.5" fill="none"
+  stroke-dasharray="294.11622649622893" stroke-dashoffset="294.11622649622893">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="294.11622649622893" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="294.11622649622893" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
+</path>
+
+<path d="M600.0,150.0 L688.289,580.187"
+  stroke="#11ff00" stroke-width="2.5" fill="none"
+  stroke-dasharray="439.15324294478995" stroke-dashoffset="439.15324294478995">    
+  
+<animate 
+  id="secondarygrow" 
+  attributeName="stroke-dashoffset" 
+    from="439.15324294478995" 
+    to="0" 
+    begin="primarygrow.end"
+    dur="0.3s" 
+    fill="freeze"/> 
+
+ <animate id="secondaryfade" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primarygrow.end+1.5s" 
+  dur="0.5s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="439.15324294478995" begin="secondaryfade.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>
 </path>
 
 </g>

@@ -1,34 +1,37 @@
 {
-    "width": 200,
-    "height": 100,
+    "width": 800,
+    "height": 300,
     "name": "animations/headon.svg",
     "point_of_contact": [
-        151.07327579126576,
-        30.671970319023877
+        400.0,
+        150.0
     ],
     "incoming_angles": [
-        211.89323491213102,
-        74.53713837530572
+        35.0,
+        215.0
     ],
     "n_border_collisions": [
-        4,
-        4
+        15,
+        15
     ],
     "n_primaries": 2,
     "primary_begin": 0,
-    "primary_stroke_width": 1,
-    "primary_duration": 1.0,
+    "primary_stroke_width": 3.5,
+    "primary_duration": 4.0,
     "primary_color": "#ffffff",
-    "n_secondaries": 20,
-    "alpha_std": 30.0,
-    "length_mean": 50.0,
-    "length_std": 30.0,
-    "secondary_stroke_width": 0.4,
+    "n_secondaries": 40,
+    "alpha_std": 130.0,
+    "length_mean": 200.0,
+    "length_std": 100.0,
+    "secondary_stroke_width": 2.5,
     "secondary_duration": 0.3,
-    "secondary_color": "#00c666",
+    "secondary_color": "0",
     "box_color": "#3c3c3c",
-    "background_color": "#dc7474",
+    "background_color": "#c62100",
     "relative_margin": 0.05,
     "store_parameters": 1,
-    "parameter_file": "configs/headon.json"
+    "parameter_file": "configs/headon.json",
+    "dur_fade_primary": 1.0,
+    "dur_fade_secondary": 0.5,
+    "dur_freeze_secondary": 1.5
 }
