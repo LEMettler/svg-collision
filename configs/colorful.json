@@ -3,15 +3,15 @@
     "height": 300,
     "name": "animations/test.svg",
     "point_of_contact": [
-        699.0666857954297,
-        233.20472100196028
+        650.0,
+        70.0
     ],
     "incoming_angles": [
-        40.38507373272539,
-        332.54755069048036,
-        357.73670456070647,
-        331.11044194256175,
-        96.16011849124848
+        302.0,
+        322.0,
+        350.0,
+        340.0,
+        280.0
     ],
     "n_border_collisions": [
         3.0,
@@ -36,7 +36,7 @@
     "background_color": "#c62100",
     "relative_margin": 0.05,
     "store_parameters": 1,
-    "parameter_file": "configs/test.json",
+    "parameter_file": "configs/colorful.json",
     "dur_fade_primary": 1.0,
     "dur_fade_secondary": 0.5,
     "dur_freeze_secondary": 1.5

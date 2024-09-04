@@ -8,7 +8,7 @@
 
 <g transform="scale(0.95,0.867) translate(20.0, 20.0)"> 
 
-<path id="box"
+  <path id="box"
   d="M0,0 L800,0 L800,300 L0,300 Z"
   stroke="#3c3c3c" stroke-width="0.5" fill="#3c3c3c"> 
 

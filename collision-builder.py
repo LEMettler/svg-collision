@@ -11,6 +11,9 @@ import matplotlib.pyplot as plt
 import os, sys
 import webbrowser
 import json
+import time
+
+np.random.seed(int(time.time()))
 
 
 
@@ -108,20 +111,66 @@ def array2d_string(path_arr, secondary=False):
     return content
 
 
-def line2svgPath(d, identifier, color='#ffffff', stroke_width=2, begin=0, dur=3, stroke_max=1000, fill='none', animate=True, reverse=True):
-    line = f'<path id="{identifier}"\n  d="{d}"\n  stroke="{color}" stroke-width="{stroke_width}" fill="{fill}"'
+def line2svgPath(d, identifier, color='#ffffff', stroke_width=2, begin=0, dur=3, stroke_max=1000, fill='none', animate=True):
+    line = f'<path d="{d}"\n  stroke="{color}" stroke-width="{stroke_width}" fill="{fill}"'
 
     if animate:
-        if reverse:
-            line += f'\n  stroke-dasharray="{stroke_max}" stroke-dashoffset="{stroke_max}">    \n  \n  <animate \n    attributeName="stroke-dashoffset" \n    from="0" \n    to="{stroke_max}" \n    begin="{begin}s"\n    dur="{dur}s" \n    fill="freeze"/> \n'
-        else:
-            line += f'\n  stroke-dasharray="{stroke_max}" stroke-dashoffset="{stroke_max}">    \n  \n  <animate \n    attributeName="stroke-dashoffset" \n    from="{stroke_max}" \n    to="0" \n    begin="{begin}s"\n    dur="{dur}s" \n    fill="freeze"/> \n'
+        #growing animation
+        line += f'\n  stroke-dasharray="{stroke_max}" stroke-dashoffset="{stroke_max}">    \n  \n  <animate \n  id="{identifier}grow" \n  attributeName="stroke-dashoffset" \n    from="{stroke_max}" \n    to="0" \n    begin="{begin}s"\n    dur="{dur}s" \n    fill="freeze"/> \n'
     else:
         line += f'> \n\n'
         
     line += f'</path>'
 
     return line
+
+
+
+def primary2Path(d, color='#ffffff', stroke_width=2, begin=0, dur=3, dur_fade= 1.0, stroke_max=1000, fill='none', animate=True):
+    line = f'<path d="{d}"\n  stroke="{color}" stroke-width="{stroke_width}" fill="{fill}"'
+
+    if animate:
+        #growing animation
+        line += f'\n  stroke-dasharray="{stroke_max}" stroke-dashoffset="{stroke_max}">    \n  \n' 
+        line += f'<animate \n  id="primarygrow" \n  attributeName="stroke-dashoffset" \n    from="{stroke_max}" \n    to="0" \n    begin="{begin}s;secondaryfade.end"\n    dur="{dur}s" \n    fill="freeze"/> \n'
+
+        # opacity fade
+        line += f'\n <animate id="primaryfade" \n attributeName="opacity" \n from="1" \n to="0" \n begin="primarygrow.end" \n  dur="{dur_fade}s" \n fill="freeze" /> \n '
+
+        # reset values
+        line += f'\n<set attributeName="stroke-dashoffset" to="{stroke_max}" begin="secondaryfade.end-0.001s"/>\n'
+        line += f'<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>\n'
+
+    else:
+        line += f'> \n\n'
+        
+    line += f'</path>'
+
+    return line
+
+
+def secondary2Path(d, color='#00c666', stroke_width=2, dur=3, dur_fade= 1.0, dur_freeze=1.5, stroke_max=1000, fill='none', animate=True):
+    line = f'<path d="{d}"\n  stroke="{color}" stroke-width="{stroke_width}" fill="{fill}"'
+
+    if animate:
+        #growing animation
+        line += f'\n  stroke-dasharray="{stroke_max}" stroke-dashoffset="{stroke_max}">    \n  \n' 
+        line += f'<animate \n  id="secondarygrow" \n  attributeName="stroke-dashoffset" \n    from="{stroke_max}" \n    to="0" \n    begin="primarygrow.end"\n    dur="{dur}s" \n    fill="freeze"/> \n'
+
+        # opacity fade
+        line += f'\n <animate id="secondaryfade" \n attributeName="opacity" \n from="1" \n to="0" \n begin="primarygrow.end+{dur_freeze}s" \n  dur="{dur_fade}s" \n fill="freeze" /> \n '
+
+        # reset values
+        line += f'\n<set attributeName="stroke-dashoffset" to="{stroke_max}" begin="secondaryfade.end-0.001s"/>\n'
+        line += f'<set attributeName="opacity" to="1" begin="secondaryfade.end-0.001s"/>\n'
+
+    else:
+        line += f'> \n\n'
+        
+    line += f'</path>'
+
+    return line
+
 
 
 
@@ -182,7 +231,9 @@ class CollisionBuider:
 
     def to_svg(self, name, primary_color='#ffffff', secondary_color='#00c666',
                 primary_stroke_width=2, secondary_stroke_width=1,
-                  primary_duration=2, secondary_duration=1, primary_begin=0, background_color='#dc7474', box_color='#3c3c3c'):
+                  primary_duration=2, secondary_duration=1, primary_begin=0, 
+                  dur_fade_primary=1.0, dur_fade_secondary=0.5, dur_freeze_secondary=1.0,
+                  background_color='#dc7474', box_color='#3c3c3c'):
         
         secondary_begin = (primary_duration + primary_begin)
 
@@ -218,11 +269,16 @@ class CollisionBuider:
             # this is the path as a string of Mx,y Lx,y ...
             d_string = array2d_string(primary_path)
             total_length = calculatePathLength(primary_path)
+
+            if primary_color == '0':
+                col = hsl_to_hex(np.random.rand(), 1, 0.5)
+            else:
+                col = primary_color
             
-            path_string = line2svgPath(d=d_string, identifier='primary-path',
-                                       color=primary_color, stroke_width=primary_stroke_width,
+            path_string = primary2Path(d=d_string,
+                                       color=col, stroke_width=primary_stroke_width,
                                        begin=primary_begin, dur=primary_duration, stroke_max=total_length,
-                                         animate=True, reverse=False)
+                                         animate=True, dur_fade=dur_fade_primary)
             
             total_string += path_string + '\n\n\n'
 
@@ -232,10 +288,20 @@ class CollisionBuider:
             # this is the path as a string of Mx,y Lx,y ...
             d_string = array2d_string(secondary_path, secondary=True)
             total_length = calculatePathLength(secondary_path)
-            path_string = line2svgPath(d=d_string, identifier='secondary-path',
-                                       color=secondary_color, stroke_width=secondary_stroke_width,
-                                       begin=secondary_begin, dur=secondary_duration,stroke_max=total_length,
-                                       animate=True, reverse=False)
+
+
+
+
+            if secondary_color == '0':
+                col = hsl_to_hex(np.random.rand(), 1, 0.5)
+            else:
+                col = secondary_color
+            
+
+            path_string = secondary2Path(d=d_string, 
+                                       color=col, stroke_width=secondary_stroke_width,
+                                       dur=secondary_duration,stroke_max=total_length,
+                                    animate=True, dur_fade=dur_fade_secondary, dur_freeze=dur_freeze_secondary)
             
             total_string += path_string + '\n\n'
 
@@ -249,6 +315,32 @@ class CollisionBuider:
         
         print(f'Writen to {name}!')
 
+
+def hsl_to_hex(h, s, l):
+    def hue_to_rgb(p, q, t):
+        if t < 0:
+            t += 1
+        if t > 1:
+            t -= 1
+        if t < 1/6:
+            return p + (q - p) * 6 * t
+        if t < 1/2:
+            return q
+        if t < 2/3:
+            return p + (q - p) * (2/3 - t) * 6
+        return p
+
+    if s == 0:
+        r = g = b = l
+    else:
+        q = l * (1 + s) if l < 0.5 else l + s - l * s
+        p = 2 * l - q
+        r = hue_to_rgb(p, q, h + 1/3)
+        g = hue_to_rgb(p, q, h)
+        b = hue_to_rgb(p, q, h - 1/3)
+
+    r, g, b = [int(x * 255) for x in (r, g, b)]
+    return f'#{r:02x}{g:02x}{b:02x}'
 
 
 ##################################################################
@@ -270,6 +362,7 @@ def get_random_angles(n):
 
 
 def print_parameters(params):
+    print(f"Primary and secondary colors can be randomized with: 0")
     print("\nCurrent Parameters:\n")
     for i, (key, value) in enumerate(params.items(), 1):
         print(f"{i}. {key}: {value}")
@@ -300,7 +393,11 @@ def modify_parameter(params, choice):
     # Is listed parameter
     if isinstance(current_value, (list, tuple, np.ndarray)):
         new_list = []
-        km = params['n_primaries']
+
+        if key == 'point_of_contact':
+            km = 2
+        else:
+            km = params['n_primaries']
         for k in range(km):
             new_value = float(input(f"New ({k+1}/{km}): "))
             new_list.append(new_value)
@@ -358,7 +455,7 @@ def input_mask(params):
         if loaded_params:
             params = loaded_params
             params['parameter_file'] = filename
-            return params
+            #return params
         else:
             print(f'Could not load file: {filename}!')
 
@@ -421,12 +518,15 @@ def main():
         'length_std': 100.,
         'secondary_stroke_width': 2.5,
         'secondary_duration': 0.3,
-        'secondary_color': '#00c666',
+        'secondary_color': '#fff200',
         'box_color': '#3c3c3c',
-        'background_color': '#dc7474',
+        'background_color': '#c62100',
         'relative_margin': 0.05,
         'store_parameters': 1,
         'parameter_file': 'configs/test.json',
+        'dur_fade_primary': 1.0,
+        'dur_fade_secondary': 0.5,
+        'dur_freeze_secondary': 1.5,
     }
 
     params = input_mask(params)
@@ -455,7 +555,10 @@ def main():
                      secondary_duration=params['secondary_duration'],
                      primary_begin=params['primary_begin'],
                      background_color=params['background_color'],
-                     box_color=params['box_color'])
+                     box_color=params['box_color'],
+                     dur_fade_primary=params['dur_fade_primary'],
+                     dur_fade_secondary=params['dur_fade_secondary'],
+                     dur_freeze_secondary=params['dur_freeze_secondary'])
     
     # display the new animation
     webbrowser.open(params['name'])
