@@ -1,0 +1,37 @@
+{
+    "width": 800,
+    "height": 300,
+    "n_primaries": 2,
+    "n_secondaries": 60,
+    "point_of_contact": [
+        550.0,
+        150.0
+    ],
+    "incoming_angles": [
+        170.0,
+        350.0
+    ],
+    "n_border_collisions": [
+        15.0,
+        15.0
+    ],
+    "alpha_std": 180.0,
+    "length_mean": 200.0,
+    "length_std": 100.0,
+    "secondary_duration": 0.3,
+    "primary_begin": 0,
+    "primary_duration": 1.5,
+    "dur_fade_primary": 1.0,
+    "dur_fade_secondary": 0.5,
+    "dur_freeze_secondary": 1.5,
+    "primary_stroke_width": 4.5,
+    "secondary_stroke_width": 1.7,
+    "primary_color": "#ffffff",
+    "secondary_color": "0",
+    "background_color": "#c62100",
+    "box_color": "#3c3c3c",
+    "relative_margin": 0.02,
+    "name": "animations/noborder.svg",
+    "parameter_file": "configs/noborder.json",
+    "store_parameters": 1
+}
