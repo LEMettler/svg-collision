@@ -95,12 +95,12 @@ def calculatePathLength(coordinates):
     return np.sum(distances)
     
 
-def array2d_string(path_arr, secondary=False):
+def array2d_string(path_arr, inverse_direction=True):
 
-    x_arr = np.array(path_arr[0])[::-1] # inverse direction
-    y_arr = np.array(path_arr[1])[::-1] # inverse direction
+    x_arr = np.array(path_arr[0])
+    y_arr = np.array(path_arr[1])
 
-    if secondary:
+    if inverse_direction:
         x_arr = x_arr[::-1]
         y_arr = y_arr[::-1]
 
@@ -267,7 +267,7 @@ class CollisionBuider:
         # loop over primary paths
         for primary_path in self.primary_paths:
             # this is the path as a string of Mx,y Lx,y ...
-            d_string = array2d_string(primary_path)
+            d_string = array2d_string(primary_path, inverse_direction=True)
             total_length = calculatePathLength(primary_path)
 
             if primary_color == '0':
@@ -286,7 +286,7 @@ class CollisionBuider:
         # loop over secondary paths
         for secondary_path in self.secondary_paths:
             # this is the path as a string of Mx,y Lx,y ...
-            d_string = array2d_string(secondary_path, secondary=True)
+            d_string = array2d_string(secondary_path, inverse_direction=False)
             total_length = calculatePathLength(secondary_path)
 
 

@@ -6,11 +6,11 @@
 
 Either load a predefined file
 ```python
-python3 collision-builder.py configs/example.json
+python3 collision_builder.py configs/example.json
 ```
 or configure your own collision
 ```python3
-python3 collision-builder.py
+python3 collision_builder.py
 ```
 via a CL interface:
 ![cli](animations/cl_input.jpg)
