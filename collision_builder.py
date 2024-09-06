@@ -97,7 +97,7 @@ def reflect(pos, wall, width, height):
     print('Error')
 
 def calculateAngle(A, Bstar):
-    return np.rad2deg(2*np.pi + np.arctan2(Bstar[1]-A[1], Bstar[0]-A[0]))
+    return np.rad2deg(2*np.pi + np.arctan2(Bstar[1]-A[1], Bstar[0]-A[0])) % 360 # [0,360)
 
 
 

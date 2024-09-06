@@ -13,14 +13,14 @@
 </path>
 
 
-<path d="M300.0,100 L800.000,400.000 L400.000,0.000 L100.000,300.000"
+<path d="M300.0,100.0 L60.000,400.000 L0.000,325.000 L100.000,200.000"
   stroke="#ffffff" stroke-width="5" fill="none"
-  stroke-dasharray="1573.044683145694" stroke-dashoffset="1573.044683145694">
+  stroke-dasharray="640.3124237432849" stroke-dashoffset="640.3124237432849">
   
 <animate 
   id="primary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="1573.044683145694" 
+    from="640.3124237432849" 
     to="0" 
     begin="primary1_stroke.end;0s"
     dur="2s" 
@@ -34,21 +34,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="1573.044683145694" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="640.3124237432849" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L149.508,285.839"
+<path d="M100.0,200.0 L103.969,96.647"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="51.49366876830308" stroke-dashoffset="51.49366876830308">
+  stroke-dasharray="103.42964549693639" stroke-dashoffset="103.42964549693639">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="51.49366876830308" 
+    from="103.42964549693639" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -62,21 +62,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="51.49366876830308" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="103.42964549693639" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L88.874,195.545"
+<path d="M100.0,200.0 L115.506,134.233"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="105.04588071273966" stroke-dashoffset="105.04588071273966">
+  stroke-dasharray="67.57047417537979" stroke-dashoffset="67.57047417537979">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="105.04588071273966" 
+    from="67.57047417537979" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -90,21 +90,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="105.04588071273966" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="67.57047417537979" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L140.163,253.940"
+<path d="M100.0,200.0 L167.610,116.898"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="61.11141990650125" stroke-dashoffset="61.11141990650125">
+  stroke-dasharray="107.13132376335062" stroke-dashoffset="107.13132376335062">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="61.11141990650125" 
+    from="107.13132376335062" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -118,21 +118,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="61.11141990650125" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="107.13132376335062" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L128.950,210.286"
+<path d="M100.0,200.0 L119.287,67.452"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="94.26889739339022" stroke-dashoffset="94.26889739339022">
+  stroke-dasharray="133.94356879003675" stroke-dashoffset="133.94356879003675">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="94.26889739339022" 
+    from="133.94356879003675" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -146,21 +146,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="94.26889739339022" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="133.94356879003675" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L247.298,342.473"
+<path d="M100.0,200.0 L159.614,102.105"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="153.29924857446926" stroke-dashoffset="153.29924857446926">
+  stroke-dasharray="114.61793072033679" stroke-dashoffset="114.61793072033679">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="153.29924857446926" 
+    from="114.61793072033679" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -174,21 +174,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="153.29924857446926" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="114.61793072033679" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L160.510,206.947"
+<path d="M100.0,200.0 L94.290,98.600"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="110.99645024662276" stroke-dashoffset="110.99645024662276">
+  stroke-dasharray="101.56027907326073" stroke-dashoffset="101.56027907326073">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="110.99645024662276" 
+    from="101.56027907326073" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -202,21 +202,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="110.99645024662276" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="101.56027907326073" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L204.112,189.074"
+<path d="M100.0,200.0 L186.742,114.010"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="152.13074079527215" stroke-dashoffset="152.13074079527215">
+  stroke-dasharray="122.1411159145503" stroke-dashoffset="122.1411159145503">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="152.13074079527215" 
+    from="122.1411159145503" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -230,21 +230,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="152.13074079527215" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="122.1411159145503" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L123.559,173.213"
+<path d="M100.0,200.0 L140.393,168.363"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="128.9577107180636" stroke-dashoffset="128.9577107180636">
+  stroke-dasharray="51.308051773137464" stroke-dashoffset="51.308051773137464">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="128.9577107180636" 
+    from="51.308051773137464" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -258,21 +258,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="128.9577107180636" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="51.308051773137464" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L124.320,204.975"
+<path d="M100.0,200.0 L180.495,98.923"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="98.0878264467342" stroke-dashoffset="98.0878264467342">
+  stroke-dasharray="129.21291021654486" stroke-dashoffset="129.21291021654486">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="98.0878264467342" 
+    from="129.21291021654486" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -286,21 +286,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="98.0878264467342" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="129.21291021654486" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L145.182,166.328"
+<path d="M100.0,200.0 L196.685,212.920"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="141.1010725982382" stroke-dashoffset="141.1010725982382">
+  stroke-dasharray="97.54451055659399" stroke-dashoffset="97.54451055659399">
   
 <animate 
   id="secondary0_stroke" 
   attributeName="stroke-dashoffset" 
-    from="141.1010725982382" 
+    from="97.54451055659399" 
     to="0" 
     begin="primary0_stroke.end"
     dur="1s" 
@@ -314,21 +314,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="141.1010725982382" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="97.54451055659399" begin="primary1_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M100.0,300.0 L800.000,66.667 L600.000,0.000 L300.000,100.000"
+<path d="M100.0,200.0 L800.000,25.000 L700.000,0.000 L300.000,100.000"
   stroke="#ffffff" stroke-width="5" fill="none"
-  stroke-dasharray="1264.9110640673516" stroke-dashoffset="1264.9110640673516">
+  stroke-dasharray="1236.9316876852981" stroke-dashoffset="1236.9316876852981">
   
 <animate 
   id="primary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="1264.9110640673516" 
+    from="1236.9316876852981" 
     to="0" 
     begin="primary0_stroke.end"
     dur="2s" 
@@ -342,21 +342,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="1264.9110640673516" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="1236.9316876852981" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L248.400,100.725"
+<path d="M300.0,100.0 L203.453,150.213"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="51.60506746392499" stroke-dashoffset="51.60506746392499">
+  stroke-dasharray="108.82391698579976" stroke-dashoffset="108.82391698579976">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="51.60506746392499" 
+    from="108.82391698579976" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -370,21 +370,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="51.60506746392499" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="108.82391698579976" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L278.357,124.171"
+<path d="M300.0,100.0 L232.194,131.279"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="32.44450782892644" stroke-dashoffset="32.44450782892644">
+  stroke-dasharray="74.67316366698056" stroke-dashoffset="74.67316366698056">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="32.44450782892644" 
+    from="74.67316366698056" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -398,21 +398,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="32.44450782892644" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="74.67316366698056" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L228.387,174.997"
+<path d="M300.0,100.0 L164.380,149.300"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="103.69601705644928" stroke-dashoffset="103.69601705644928">
+  stroke-dasharray="144.30262685670064" stroke-dashoffset="144.30262685670064">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="103.69601705644928" 
+    from="144.30262685670064" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -426,21 +426,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="103.69601705644928" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="144.30262685670064" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L222.659,213.019"
+<path d="M300.0,100.0 L202.549,137.725"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="136.94870313983614" stroke-dashoffset="136.94870313983614">
+  stroke-dasharray="104.49797537322571" stroke-dashoffset="104.49797537322571">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="136.94870313983614" 
+    from="104.49797537322571" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -454,21 +454,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="136.94870313983614" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="104.49797537322571" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L261.499,71.989"
+<path d="M300.0,100.0 L220.948,108.910"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="47.612483863880925" stroke-dashoffset="47.612483863880925">
+  stroke-dasharray="79.55250246579776" stroke-dashoffset="79.55250246579776">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="47.612483863880925" 
+    from="79.55250246579776" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -482,21 +482,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="47.612483863880925" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="79.55250246579776" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L184.547,48.417"
+<path d="M300.0,100.0 L203.550,130.200"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="126.45185322067465" stroke-dashoffset="126.45185322067465">
+  stroke-dasharray="101.06753668846798" stroke-dashoffset="101.06753668846798">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="126.45185322067465" 
+    from="101.06753668846798" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -510,21 +510,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="126.45185322067465" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="101.06753668846798" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L173.710,150.677"
+<path d="M300.0,100.0 L221.175,104.576"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="136.0787187357326" stroke-dashoffset="136.0787187357326">
+  stroke-dasharray="78.9572369805829" stroke-dashoffset="78.9572369805829">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="136.0787187357326" 
+    from="78.9572369805829" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -538,21 +538,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="136.0787187357326" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="78.9572369805829" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L168.657,144.563"
+<path d="M300.0,100.0 L221.108,15.288"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="138.69695284624032" stroke-dashoffset="138.69695284624032">
+  stroke-dasharray="115.75853717365331" stroke-dashoffset="115.75853717365331">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="138.69695284624032" 
+    from="115.75853717365331" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -566,21 +566,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="138.69695284624032" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="115.75853717365331" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L195.589,96.501"
+<path d="M300.0,100.0 L160.737,184.034"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="104.4697204800109" stroke-dashoffset="104.4697204800109">
+  stroke-dasharray="162.65264983046316" stroke-dashoffset="162.65264983046316">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="104.4697204800109" 
+    from="162.65264983046316" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -594,21 +594,21 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="104.4697204800109" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="162.65264983046316" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
 
 
 
-<path d="M300.0,100.0 L213.412,99.633"
+<path d="M300.0,100.0 L241.207,200.004"
   stroke="#ccbb00" stroke-width="5" fill="none"
-  stroke-dasharray="86.58868495429547" stroke-dashoffset="86.58868495429547">
+  stroke-dasharray="116.0063260123988" stroke-dashoffset="116.0063260123988">
   
 <animate 
   id="secondary1_stroke" 
   attributeName="stroke-dashoffset" 
-    from="86.58868495429547" 
+    from="116.0063260123988" 
     to="0" 
     begin="primary1_stroke.end"
     dur="1s" 
@@ -622,7 +622,7 @@
   dur="0.5s" 
  fill="freeze" /> 
  
-<set attributeName="stroke-dashoffset" to="86.58868495429547" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="stroke-dashoffset" to="116.0063260123988" begin="primary0_stroke.end-0.001s"/>
 <set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
 </path>
 
