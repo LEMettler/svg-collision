@@ -465,7 +465,7 @@ class CollisionBuider:
         secondary_stroke_begin = f'primary{self.collision_index}_stroke.end'
         secondary_stroke_reset = f'primary{last_collision_index}_stroke.end-0.001s'
 
-        secondary_opacity_begin = f'secondary{self.collision_index}_stroke.end+{self.dur_freeze_secondary}s'
+        secondary_opacity_begin = f'primary{self.collision_index}_stroke.end+{self.dur_freeze_secondary}s'
         secondary_opacity_reset = f'primary{last_collision_index}_stroke.end-0.001s'
 
 
