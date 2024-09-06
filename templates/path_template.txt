@@ -1,0 +1,26 @@
+
+<path d="_PATH_"
+  stroke="_COLOR_" stroke-width="_WIDTH_" fill="none"
+  stroke-dasharray="_LENGTH_" stroke-dashoffset="_LENGTH_">
+  
+<animate 
+  id="_STROKE-ID_" 
+  attributeName="stroke-dashoffset" 
+    from="_LENGTH_" 
+    to="0" 
+    begin="_STROKE-BEGIN_"
+    dur="_STROKE-DURATION_" 
+    fill="freeze"/> 
+
+ <animate id="_OPACITY-ID_" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="_OPACITY-BEGIN_" 
+  dur="_OPACITY-DURATION_" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="_LENGTH_" begin="_STROKE-RESET-BEGIN_"/>
+<set attributeName="opacity" to="1" begin="_OPACITY-RESET-BEGIN_"/>
+</path>
+

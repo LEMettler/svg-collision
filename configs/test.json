@@ -1,43 +1,39 @@
 {
     "width": 800,
     "height": 300,
-    "name": "animations/test.svg",
+    "n_primaries": 3,
+    "n_secondaries": 30,
     "point_of_contact": [
-        699.0666857954297,
-        233.20472100196028
+        76.78919622669973,
+        287.7805309225677
     ],
     "incoming_angles": [
-        40.38507373272539,
-        332.54755069048036,
-        357.73670456070647,
-        331.11044194256175,
-        96.16011849124848
+        5.381302024379866,
+        167.8534280173869,
+        284.93684358232974
     ],
     "n_border_collisions": [
-        3.0,
-        5.0,
-        8.0,
-        10.0,
-        4.0
+        15,
+        15,
+        15
     ],
-    "n_primaries": 5,
-    "primary_begin": 0,
-    "primary_stroke_width": 3.0,
-    "primary_duration": 3.0,
-    "primary_color": "0",
-    "n_secondaries": 30,
     "alpha_std": 40.0,
     "length_mean": 200.0,
     "length_std": 100.0,
-    "secondary_stroke_width": 2.5,
     "secondary_duration": 0.3,
-    "secondary_color": "0",
-    "box_color": "#3c3c3c",
-    "background_color": "#c62100",
-    "relative_margin": 0.05,
-    "store_parameters": 1,
-    "parameter_file": "configs/test.json",
+    "primary_begin": 0,
+    "primary_duration": 3.0,
     "dur_fade_primary": 1.0,
     "dur_fade_secondary": 0.5,
-    "dur_freeze_secondary": 1.5
+    "dur_freeze_secondary": 1.5,
+    "primary_stroke_width": 4.5,
+    "secondary_stroke_width": 2.5,
+    "primary_color": "#ffffff",
+    "secondary_color": "#fff200",
+    "background_color": "#c62100",
+    "box_color": "#3c3c3c",
+    "relative_margin": 0.05,
+    "name": "animations/test.svg",
+    "parameter_file": "configs/test.json",
+    "store_parameters": 1
 }

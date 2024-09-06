@@ -85,6 +85,22 @@ def secondaryPaths(n, x0, y0, alpha1, alpha2, alpha_std=30, length_mean=50, leng
 
 
 
+def reflect(pos, wall, width, height):
+    if wall == 'AB':
+        return [pos[0], -pos[1]]
+    if wall == 'CD':
+        return [pos[0], 2*height - pos[1]]
+    if wall == 'BC':
+        return [2*width - pos[0], pos[1]]
+    if wall == 'DA':
+        return [-pos[0], pos[1]]
+    print('Error')
+
+def calculateAngle(A, Bstar):
+    return np.rad2deg(2*np.pi + np.arctan2(Bstar[1]-A[1], Bstar[0]-A[0]))
+
+
+
 def calculatePathLength(coordinates):
     
     coords = np.array(coordinates)
@@ -175,7 +191,7 @@ def secondary2Path(d, color='#00c666', stroke_width=2, dur=3, dur_fade= 1.0, dur
 
 
 class CollisionBuider:
-    def __init__(self, width, height, point_of_contact, incoming_angles, relative_margin=0.05):
+    def __init__(self, width, height, point_of_contact, incoming_angles=[], relative_margin=0.05):
         self.width = width
         self.height = height 
         self.point_of_contact = point_of_contact
@@ -184,6 +200,27 @@ class CollisionBuider:
 
         self.primary_paths = []
         self.secondary_paths = []
+
+
+    def setStyle(self, collision_index, primary_color='#ffffff', secondary_color='#00c666',
+                primary_stroke_width=2, secondary_stroke_width=1,
+                  primary_duration=2, secondary_duration=1, primary_begin=0, 
+                  dur_fade_primary=1.0, dur_fade_secondary=0.5, dur_freeze_secondary=1.0,
+                  background_color='#dc7474', box_color='#3c3c3c'):
+        self.collision_index = collision_index
+        self.primary_color = primary_color
+        self.secondary_color = secondary_color
+        self.primary_stroke_width = primary_stroke_width
+        self.secondary_stroke_width = secondary_stroke_width
+        self.primary_duration = primary_duration
+        self.secondary_duration = secondary_duration
+        self.primary_begin = primary_begin
+        self.background_color = background_color
+        self.box_color = box_color
+        self.dur_fade_primary = dur_fade_primary
+        self.dur_fade_secondary = dur_fade_secondary
+        self.dur_freeze_secondary = dur_freeze_secondary
+
 
 
     def calculatePrimaryPaths(self, n_bounces):
@@ -216,6 +253,42 @@ class CollisionBuider:
             self.secondary_paths.append(new_path)
 
 
+    def addPrimaryFrom(self, start_pos, wall_collisions):
+        '''
+        - start_pos: a (x, y)
+        - wall collisions: Combination of "AB", "BC", "CD", "DA" [[path1], [path2], ...] (in time-forward order)
+        ---------------------------------------
+        Calculate and Save the path(s) to be taken from start_pos (a) -> point_of_collision (b)
+        '''
+
+        n_bounces = []
+        # allow multiple paths to be computed
+        for this_wall_collision_path in wall_collisions:
+
+            # calculate virtual endpoint
+            virtual_end_pos = start_pos.copy()
+            for coll in this_wall_collision_path[::-1]:
+                virtual_end_pos = reflect(virtual_end_pos, coll, self.width, self.height)
+
+
+            # calculate angle going out from a, aimed at virtual b
+            start_alpha = calculateAngle(self.point_of_contact, virtual_end_pos)
+
+            self.incoming_angles.append(start_alpha)
+            n_bounces.append(len(this_wall_collision_path))
+
+
+        # compute the paths of collision
+        self.calculatePrimaryPaths(n_bounces)
+
+        # need to add a last point: b
+        for i in range(len(self.primary_paths)):
+            self.primary_paths[i][0].append(start_pos[0])
+            self.primary_paths[i][1].append(start_pos[1])
+
+
+
+
     def plotResult(self):
         plt.figure(figsize=(10, self.height/self.width*10))
         plt.plot([0, self.width, self.width, 0, 0], [0, 0, self.height, self.height, 0], color='k')
@@ -234,6 +307,7 @@ class CollisionBuider:
                   primary_duration=2, secondary_duration=1, primary_begin=0, 
                   dur_fade_primary=1.0, dur_fade_secondary=0.5, dur_freeze_secondary=1.0,
                   background_color='#dc7474', box_color='#3c3c3c'):
+        
         
         secondary_begin = (primary_duration + primary_begin)
 
@@ -314,6 +388,118 @@ class CollisionBuider:
             file.write(total_string)
         
         print(f'Writen to {name}!')
+
+
+    #########################################################################
+    def prepare_for_multi_svg(self, template_path, last_collision_index=-1):
+        with open(template_path) as template_file:
+            template_string = template_file.read()
+
+
+        def insertParameters(path, length, color, width,
+                            stroke_id, stroke_begin, stroke_duration, stroke_reset_begin,
+                            opacity_id, opacity_begin, opacity_duration, opacity_reset_begin):
+            path_string = template_string
+            
+            path_string = path_string.replace('_PATH_', path)
+            path_string = path_string.replace('_LENGTH_', length)
+            path_string = path_string.replace('_COLOR_', color)
+            path_string = path_string.replace('_WIDTH_', width)
+            path_string = path_string.replace('_STROKE-ID_', stroke_id)
+            path_string = path_string.replace('_STROKE-BEGIN_', stroke_begin)
+            path_string = path_string.replace('_STROKE-DURATION_', stroke_duration)
+            path_string = path_string.replace('_OPACITY-ID_', opacity_id)
+            path_string = path_string.replace('_OPACITY-BEGIN_', opacity_begin)
+            path_string = path_string.replace('_OPACITY-DURATION_', opacity_duration)
+            path_string = path_string.replace('_STROKE-RESET-BEGIN_', stroke_reset_begin)
+            path_string = path_string.replace('_OPACITY-RESET-BEGIN_', opacity_reset_begin)
+
+            return path_string + '\n\n'
+        
+
+
+        this_collision_string = ''
+
+
+        if self.collision_index > 0:
+            last_collision_index = self.collision_index - 1
+
+        # loop over the primaries
+
+        primary_stroke_id = f'primary{self.collision_index}_stroke'
+        primary_opacity_id = f'primary{self.collision_index}_opacity'
+
+        primary_stroke_begin = f'primary{last_collision_index}_stroke.end'
+        if self.collision_index == 0:
+            primary_stroke_begin += ';0s'
+        primary_stroke_reset = f'primary{last_collision_index}_stroke.end-0.001s'
+        
+        primary_opacity_begin = f'primary{self.collision_index}_stroke.end'
+        primary_opacity_reset = f'primary{last_collision_index}_stroke.end-0.001s'
+
+
+        for path_array in self.primary_paths:
+            d_string = array2d_string(path_array, inverse_direction=True)
+            total_length = calculatePathLength(path_array)
+
+            this_collision_string += insertParameters(path=d_string, length=str(total_length),
+                                            color=self.primary_color,
+                                            width=f'{self.primary_stroke_width}',
+                                            stroke_id=primary_stroke_id,
+                                            stroke_begin=primary_stroke_begin,
+                                            stroke_duration=f'{self.primary_duration}s',
+                                            stroke_reset_begin=primary_stroke_reset,
+                                            opacity_id=primary_opacity_id,
+                                            opacity_begin=primary_opacity_begin,
+                                            opacity_duration=f'{self.dur_fade_primary}s',
+                                            opacity_reset_begin=primary_opacity_reset)
+            
+
+
+
+        # loop over the secondaries
+
+        secondary_stroke_id = f'secondary{self.collision_index}_stroke'
+        secondary_opacity_id = f'secondary{self.collision_index}_opacity'
+        
+        secondary_stroke_begin = f'primary{self.collision_index}_stroke.end'
+        secondary_stroke_reset = f'primary{last_collision_index}_stroke.end-0.001s'
+
+        secondary_opacity_begin = f'secondary{self.collision_index}_stroke.end+{self.dur_freeze_secondary}s'
+        secondary_opacity_reset = f'primary{last_collision_index}_stroke.end-0.001s'
+
+
+
+        for path_array in self.secondary_paths:
+            d_string = array2d_string(path_array, inverse_direction=False)
+            total_length = calculatePathLength(path_array)
+
+            this_collision_string += insertParameters(path=d_string, length=str(total_length),
+                                            color=self.secondary_color,
+                                            width=f'{self.primary_stroke_width}',
+                                            stroke_id=secondary_stroke_id,
+                                            stroke_begin=secondary_stroke_begin,
+                                            stroke_duration=f'{self.secondary_duration}s',
+                                            stroke_reset_begin=secondary_stroke_reset,
+                                            opacity_id=secondary_opacity_id,
+                                            opacity_begin=secondary_opacity_begin,
+                                            opacity_duration=f'{self.dur_fade_secondary}s',
+                                            opacity_reset_begin=secondary_opacity_reset)
+            
+        return this_collision_string
+            
+            
+            
+
+            
+            
+
+        
+
+
+
+    #########################################################################
+
 
 
 def hsl_to_hex(h, s, l):
