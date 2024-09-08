@@ -1,9 +1,11 @@
 # SVG Collisions
 
 ![file](animations/offset.svg)
+![file](animations/multi-collision.svg)
 
 ## How to?
 
+### Single collision
 Either load a predefined file
 ```python
 python3 collision_builder.py configs/example.json
@@ -16,10 +18,17 @@ via a CL interface:
 ![cli](animations/cl_input.jpg)
 
 
-### Examples
+### Multiple collisions
+
+via graphical user interface
+
+```python3
+python3 consecutive_collision_gui.py
+```
+![gui](animations/gui_input.jpg)
+
+or specify paths directly in `consecutive_collisions.py`!
 
 
 
-![file](animations/example.svg)
-![file](animations/test.svg)
-![file](animations/anim.svg)
+

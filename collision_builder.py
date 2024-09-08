@@ -1,7 +1,6 @@
 #
 # Created on:  Tue Sep 03 2024
 # By:  Lukas Mettler (lukas.mettler@student.kit.edu)
-#
 # https://github.com/LEMettler
 #
 
@@ -86,13 +85,14 @@ def secondaryPaths(n, x0, y0, alpha1, alpha2, alpha_std=30, length_mean=50, leng
 
 
 def reflect(pos, wall, width, height):
-    if wall == 'AB':
+    wall = wall.strip()
+    if wall == 'A':
         return [pos[0], -pos[1]]
-    if wall == 'CD':
+    if wall == 'C':
         return [pos[0], 2*height - pos[1]]
-    if wall == 'BC':
+    if wall == 'B':
         return [2*width - pos[0], pos[1]]
-    if wall == 'DA':
+    if wall == 'D':
         return [-pos[0], pos[1]]
     print('Error')
 
@@ -256,7 +256,7 @@ class CollisionBuider:
     def addPrimaryFrom(self, start_pos, wall_collisions):
         '''
         - start_pos: a (x, y)
-        - wall collisions: Combination of "AB", "BC", "CD", "DA" [[path1], [path2], ...] (in time-forward order)
+        - wall collisions: Combination of "A", "B", "C", "D" [[path1], [path2], ...] (in time-forward order)
         ---------------------------------------
         Calculate and Save the path(s) to be taken from start_pos (a) -> point_of_collision (b)
         '''

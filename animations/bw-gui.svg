@@ -1,0 +1,2483 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+<path d="M0,0 L800,0 L800,800 L0,800 Z"
+  stroke="#a6480f" stroke-width="0" fill="#a6480f"> 
+
+</path>
+
+<g transform="scale(0.95,0.95) translate(20.0, 20.0)"> 
+
+<path d="M0,0 L800,0 L800,800 L0,800 Z"
+  stroke="#3c3c3c" stroke-width="0.5" fill="#3c3c3c"> 
+
+</path>
+
+
+<path d="M300.0,100.0 L72.329,0.000 L0.000,31.769 L800.000,383.154 L600.000,471.000"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="1419.8735859223525" stroke-dashoffset="1419.8735859223525">
+  
+<animate 
+  id="primary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="1419.8735859223525" 
+    to="0" 
+    begin="primary3_stroke.end;0s"
+    dur="3.0s" 
+    fill="freeze"/> 
+
+ <animate id="primary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="1419.8735859223525" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L800.000,370.789 L7.483,800.000 L0.000,795.947 L600.000,471.000"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="2160.750101237994" stroke-dashoffset="2160.750101237994">
+  
+<animate 
+  id="primary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="2160.750101237994" 
+    to="0" 
+    begin="primary3_stroke.end;0s"
+    dur="3.0s" 
+    fill="freeze"/> 
+
+ <animate id="primary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="2160.750101237994" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L709.270,463.319"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="109.53990917257211" stroke-dashoffset="109.53990917257211">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="109.53990917257211" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="109.53990917257211" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L722.900,484.038"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="123.58942350254367" stroke-dashoffset="123.58942350254367">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="123.58942350254367" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="123.58942350254367" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L640.376,529.012"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="70.67978592199114" stroke-dashoffset="70.67978592199114">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="70.67978592199114" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="70.67978592199114" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L700.883,522.525"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="113.27950716472006" stroke-dashoffset="113.27950716472006">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="113.27950716472006" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="113.27950716472006" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L626.830,558.789"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="91.79779370281292" stroke-dashoffset="91.79779370281292">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="91.79779370281292" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="91.79779370281292" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L652.658,523.613"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="74.437891191828" stroke-dashoffset="74.437891191828">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="74.437891191828" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="74.437891191828" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L628.895,540.476"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="75.24496158915612" stroke-dashoffset="75.24496158915612">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="75.24496158915612" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="75.24496158915612" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L719.757,505.024"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="124.49701557725419" stroke-dashoffset="124.49701557725419">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="124.49701557725419" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="124.49701557725419" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L689.387,469.352"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="89.40233097598511" stroke-dashoffset="89.40233097598511">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="89.40233097598511" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="89.40233097598511" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L659.545,517.620"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="75.6241856724272" stroke-dashoffset="75.6241856724272">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="75.6241856724272" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="75.6241856724272" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L632.874,588.157"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="121.68166560149358" stroke-dashoffset="121.68166560149358">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="121.68166560149358" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="121.68166560149358" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L688.773,577.817"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="138.8905761503308" stroke-dashoffset="138.8905761503308">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="138.8905761503308" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="138.8905761503308" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L599.051,551.235"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="80.24071967087201" stroke-dashoffset="80.24071967087201">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="80.24071967087201" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="80.24071967087201" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L685.928,535.450"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="107.41206642519911" stroke-dashoffset="107.41206642519911">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="107.41206642519911" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="107.41206642519911" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L670.161,599.059"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="146.01931683041383" stroke-dashoffset="146.01931683041383">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="146.01931683041383" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="146.01931683041383" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L655.697,549.189"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="95.99817242335327" stroke-dashoffset="95.99817242335327">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="95.99817242335327" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="95.99817242335327" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L691.518,518.616"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="103.16359966016859" stroke-dashoffset="103.16359966016859">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="103.16359966016859" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="103.16359966016859" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L709.478,460.247"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="110.00517853047938" stroke-dashoffset="110.00517853047938">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="110.00517853047938" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="110.00517853047938" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L641.172,569.357"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="106.62690267030068" stroke-dashoffset="106.62690267030068">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="106.62690267030068" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="106.62690267030068" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L640.831,592.110"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="127.8075153567335" stroke-dashoffset="127.8075153567335">
+  
+<animate 
+  id="secondary0_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="127.8075153567335" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary0_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary0_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="127.8075153567335" begin="primary3_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary3_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L800.000,388.676 L0.000,59.380 L144.258,0.000 L222.000,32.000"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="1321.4737984538322" stroke-dashoffset="1321.4737984538322">
+  
+<animate 
+  id="primary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="1321.4737984538322" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="3.0s" 
+    fill="freeze"/> 
+
+ <animate id="primary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="1321.4737984538322" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M600.0,471.0 L800.000,109.423 L762.295,0.000 L486.634,800.000 L222.000,32.000"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="2187.417523860848" stroke-dashoffset="2187.417523860848">
+  
+<animate 
+  id="primary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="2187.417523860848" 
+    to="0" 
+    begin="primary0_stroke.end"
+    dur="3.0s" 
+    fill="freeze"/> 
+
+ <animate id="primary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="2187.417523860848" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L328.382,55.037"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="108.84815506861347" stroke-dashoffset="108.84815506861347">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="108.84815506861347" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="108.84815506861347" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L261.851,-56.183"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="96.76918365359329" stroke-dashoffset="96.76918365359329">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="96.76918365359329" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="96.76918365359329" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L298.760,31.363"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="76.76220102458693" stroke-dashoffset="76.76220102458693">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="76.76220102458693" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="76.76220102458693" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L282.209,-100.522"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="145.55885076175073" stroke-dashoffset="145.55885076175073">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="145.55885076175073" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="145.55885076175073" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L322.416,-26.784"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="116.35706396269133" stroke-dashoffset="116.35706396269133">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="116.35706396269133" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="116.35706396269133" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L231.474,-99.895"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="132.23519313856747" stroke-dashoffset="132.23519313856747">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="132.23519313856747" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="132.23519313856747" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L210.331,-76.117"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="108.74456335482861" stroke-dashoffset="108.74456335482861">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="108.74456335482861" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="108.74456335482861" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L321.145,40.876"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="99.54133186056046" stroke-dashoffset="99.54133186056046">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="99.54133186056046" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="99.54133186056046" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L290.434,6.357"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="73.08078565000866" stroke-dashoffset="73.08078565000866">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="73.08078565000866" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="73.08078565000866" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L323.181,47.613"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="102.37812082646722" stroke-dashoffset="102.37812082646722">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="102.37812082646722" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="102.37812082646722" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L200.760,-60.844"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="95.2427761332316" stroke-dashoffset="95.2427761332316">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="95.2427761332316" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="95.2427761332316" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L341.119,6.942"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="121.72593806774137" stroke-dashoffset="121.72593806774137">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="121.72593806774137" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="121.72593806774137" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L268.717,-7.552"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="61.21137893085009" stroke-dashoffset="61.21137893085009">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="61.21137893085009" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="61.21137893085009" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L206.267,-103.938"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="136.8453047581618" stroke-dashoffset="136.8453047581618">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="136.8453047581618" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="136.8453047581618" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L202.322,-42.278"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="76.84055663882503" stroke-dashoffset="76.84055663882503">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="76.84055663882503" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="76.84055663882503" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L255.265,-77.716"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="114.64778397642667" stroke-dashoffset="114.64778397642667">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="114.64778397642667" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="114.64778397642667" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L266.483,-43.902"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="87.97628059057442" stroke-dashoffset="87.97628059057442">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="87.97628059057442" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="87.97628059057442" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L286.852,-16.112"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="80.74998407344088" stroke-dashoffset="80.74998407344088">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="80.74998407344088" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="80.74998407344088" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L310.586,70.053"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="96.41311979269679" stroke-dashoffset="96.41311979269679">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="96.41311979269679" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="96.41311979269679" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L228.861,-76.537"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="108.7534537395614" stroke-dashoffset="108.7534537395614">
+  
+<animate 
+  id="secondary1_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="108.7534537395614" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary1_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary1_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="108.7534537395614" begin="primary0_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary0_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L0.000,185.954 L189.406,0.000 L800.000,599.465 L595.743,800.000 L555.000,760.000"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="1734.606230442399" stroke-dashoffset="1734.606230442399">
+  
+<animate 
+  id="primary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="1734.606230442399" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="3.0s" 
+    fill="freeze"/> 
+
+ <animate id="primary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="1734.606230442399" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M222.0,32.0 L125.960,0.000 L0.000,41.969 L800.000,308.523 L0.000,575.078 L555.000,760.000"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="2505.4726101077217" stroke-dashoffset="2505.4726101077217">
+  
+<animate 
+  id="primary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="2505.4726101077217" 
+    to="0" 
+    begin="primary1_stroke.end"
+    dur="3.0s" 
+    fill="freeze"/> 
+
+ <animate id="primary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="2505.4726101077217" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L637.635,756.529"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="82.70802676881246" stroke-dashoffset="82.70802676881246">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="82.70802676881246" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="82.70802676881246" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L578.799,685.962"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="77.76888454520873" stroke-dashoffset="77.76888454520873">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="77.76888454520873" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="77.76888454520873" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L561.031,678.795"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="81.42877651352295" stroke-dashoffset="81.42877651352295">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="81.42877651352295" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="81.42877651352295" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L607.927,662.373"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="111.05146223496364" stroke-dashoffset="111.05146223496364">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="111.05146223496364" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="111.05146223496364" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L692.929,821.764"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="151.12652306741646" stroke-dashoffset="151.12652306741646">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="151.12652306741646" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="151.12652306741646" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L609.523,683.014"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="94.33791401425034" stroke-dashoffset="94.33791401425034">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="94.33791401425034" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="94.33791401425034" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L645.927,723.296"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="98.05517728394332" stroke-dashoffset="98.05517728394332">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="98.05517728394332" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="98.05517728394332" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L617.458,690.077"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="93.75626574066494" stroke-dashoffset="93.75626574066494">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="93.75626574066494" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="93.75626574066494" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L585.249,647.842"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="116.1653353710171" stroke-dashoffset="116.1653353710171">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="116.1653353710171" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="116.1653353710171" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L528.012,696.949"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="68.58376442332413" stroke-dashoffset="68.58376442332413">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="68.58376442332413" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="68.58376442332413" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L613.446,666.016"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="110.67489632638011" stroke-dashoffset="110.67489632638011">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="110.67489632638011" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="110.67489632638011" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L637.436,757.839"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="82.46435599986577" stroke-dashoffset="82.46435599986577">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="82.46435599986577" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="82.46435599986577" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L579.733,680.307"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="83.44290696512515" stroke-dashoffset="83.44290696512515">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="83.44290696512515" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="83.44290696512515" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L595.539,686.272"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="84.13850510228487" stroke-dashoffset="84.13850510228487">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="84.13850510228487" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="84.13850510228487" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L561.325,641.534"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="118.63440077598906" stroke-dashoffset="118.63440077598906">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="118.63440077598906" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="118.63440077598906" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L634.379,659.356"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="128.18098369178466" stroke-dashoffset="128.18098369178466">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="128.18098369178466" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="128.18098369178466" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L555.913,692.339"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="67.66716212573137" stroke-dashoffset="67.66716212573137">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="67.66716212573137" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="67.66716212573137" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L615.502,686.838"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="94.93732186126098" stroke-dashoffset="94.93732186126098">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="94.93732186126098" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="94.93732186126098" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L512.162,679.647"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="91.05878128620206" stroke-dashoffset="91.05878128620206">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="91.05878128620206" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="91.05878128620206" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L470.228,690.942"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="109.34031079632227" stroke-dashoffset="109.34031079632227">
+  
+<animate 
+  id="secondary2_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="109.34031079632227" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary2_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary2_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="109.34031079632227" begin="primary1_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary1_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L595.270,800.000 L800.000,596.644 L300.000,100.000"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="1050.0595221224366" stroke-dashoffset="1050.0595221224366">
+  
+<animate 
+  id="primary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="1050.0595221224366" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="3.0s" 
+    fill="freeze"/> 
+
+ <animate id="primary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="1050.0595221224366" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M555.0,760.0 L0.000,201.754 L200.581,0.000 L300.000,100.000"
+  stroke="#ffffff" stroke-width="3.0" fill="none"
+  stroke-dasharray="1212.6932835634902" stroke-dashoffset="1212.6932835634902">
+  
+<animate 
+  id="primary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="1212.6932835634902" 
+    to="0" 
+    begin="primary2_stroke.end"
+    dur="3.0s" 
+    fill="freeze"/> 
+
+ <animate id="primary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="1212.6932835634902" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L385.032,31.131"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="109.42268661774784" stroke-dashoffset="109.42268661774784">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="109.42268661774784" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="109.42268661774784" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L291.387,-6.031"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="106.38029832250143" stroke-dashoffset="106.38029832250143">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="106.38029832250143" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="106.38029832250143" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L391.912,49.879"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="104.6895067193426" stroke-dashoffset="104.6895067193426">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="104.6895067193426" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="104.6895067193426" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L340.371,21.549"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="88.2288339926634" stroke-dashoffset="88.2288339926634">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="88.2288339926634" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="88.2288339926634" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L375.738,25.021"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="106.57431065266059" stroke-dashoffset="106.57431065266059">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="106.57431065266059" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="106.57431065266059" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L359.490,10.740"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="107.26803298736631" stroke-dashoffset="107.26803298736631">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="107.26803298736631" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="107.26803298736631" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L359.509,72.992"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="65.35159806110441" stroke-dashoffset="65.35159806110441">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="65.35159806110441" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="65.35159806110441" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L339.505,27.632"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="82.4485269015489" stroke-dashoffset="82.4485269015489">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="82.4485269015489" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="82.4485269015489" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L284.938,1.816"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="99.3323807713174" stroke-dashoffset="99.3323807713174">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="99.3323807713174" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="99.3323807713174" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L255.376,-15.731"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="124.03578904233459" stroke-dashoffset="124.03578904233459">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="124.03578904233459" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="124.03578904233459" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L392.473,7.807"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="130.57900408521672" stroke-dashoffset="130.57900408521672">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="130.57900408521672" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="130.57900408521672" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L408.264,70.132"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="112.30851873125911" stroke-dashoffset="112.30851873125911">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="112.30851873125911" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="112.30851873125911" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L268.683,30.799"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="75.95765953753579" stroke-dashoffset="75.95765953753579">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="75.95765953753579" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="75.95765953753579" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L366.580,92.519"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="66.99894065701397" stroke-dashoffset="66.99894065701397">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="66.99894065701397" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="66.99894065701397" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L331.078,7.589"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="97.49666538000275" stroke-dashoffset="97.49666538000275">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="97.49666538000275" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="97.49666538000275" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L352.887,3.925"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="109.66945975271565" stroke-dashoffset="109.66945975271565">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="109.66945975271565" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="109.66945975271565" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L333.698,32.198"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="75.71451823109783" stroke-dashoffset="75.71451823109783">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="75.71451823109783" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="75.71451823109783" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L393.287,34.201"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="114.15761680396305" stroke-dashoffset="114.15761680396305">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="114.15761680396305" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="114.15761680396305" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L300.562,-32.664"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="132.66500680214455" stroke-dashoffset="132.66500680214455">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="132.66500680214455" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="132.66500680214455" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+<path d="M300.0,100.0 L409.201,-13.005"
+  stroke="#e64b29" stroke-width="3.0" fill="none"
+  stroke-dasharray="157.1457973527838" stroke-dashoffset="157.1457973527838">
+  
+<animate 
+  id="secondary3_stroke" 
+  attributeName="stroke-dashoffset" 
+    from="157.1457973527838" 
+    to="0" 
+    begin="primary3_stroke.end"
+    dur="0.5s" 
+    fill="freeze"/> 
+
+ <animate id="secondary3_opacity" 
+ attributeName="opacity" 
+ from="1" 
+ to="0" 
+ begin="primary3_stroke.end+0.0s" 
+  dur="0.25s" 
+ fill="freeze" /> 
+ 
+<set attributeName="stroke-dashoffset" to="157.1457973527838" begin="primary2_stroke.end-0.001s"/>
+<set attributeName="opacity" to="1" begin="primary2_stroke.end-0.001s"/>
+</path>
+
+
+
+
+
+</g>
+
+</svg>

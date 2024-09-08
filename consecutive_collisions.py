@@ -1,3 +1,10 @@
+#
+# Created on:  Sun Sep 08 2024
+# By:  Lukas Mettler (lukas.mettler@student.kit.edu)
+# https://github.com/LEMettler
+#
+
+
 import numpy as np
 import matplotlib.pyplot as plt 
 from collision_builder import *
@@ -16,10 +23,10 @@ class ConsecutiveCollisionBuilder:
             'alpha_std': 50,
             'length_mean': 200,
             'length_std': 100,
-            'primary_color': '#ffffff',
-            'secondary_color': '#ccbb00',
+            'primary_color': '#eb6e21',
+            'secondary_color': '#c9801a',
             'box_color': '#3c3c3c',
-            'background_color': '#dc7474',
+            'background_color': '#a6480f',
             'primary_stroke_width': 3.5,
             'secondary_stroke_width': 3.5,
             'primary_begin': 0,
@@ -55,7 +62,7 @@ class ConsecutiveCollisionBuilder:
 
     def to_svg(self, file_name):
         # closing the loop
-        #self.addCollision(self.points_of_collision[0], [['AB'], ['BC', 'CD']])
+        #self.addCollision(self.points_of_collision[0], [['A'], ['B', 'C']])
         
 
         #begin the string
@@ -106,12 +113,18 @@ class ConsecutiveCollisionBuilder:
 
 # execution
 
-ccb = ConsecutiveCollisionBuilder(800, 400, [300, 100])
-ccb.addCollision([400, 230], [['CD', 'DA', 'CD'], ['BC', 'AB', 'DA', 'AB']], primary_duration=2,  primary_color='#54f542', secondary_color='#f2f542')
-ccb.addCollision([5, 10], [['CD', 'DA', 'CD'], ['BC', 'AB']], primary_duration=2,  primary_color='#f2f542', secondary_color='#f55742')
-ccb.addCollision([750, 190], [['AB', 'DA', 'CD'], ['BC']], primary_duration=2,  primary_color='#f55742', secondary_color='#424bf5')
-ccb.addCollision([300, 100], [['AB', 'DA', 'AB', 'CD'], ['BC', 'CD', 'AB']], primary_duration=2,  primary_color='#424bf5', secondary_color='#54f542')
-ccb.to_svg('test.svg')
+    
+if __name__ == "__main__":
+    
 
-# display the new animation
-webbrowser.open('test.svg')
+    ccb = ConsecutiveCollisionBuilder(800, 400, [300, 100])
+    ccb.addCollision([402, 230], [['C', 'D', 'C'], ['B', 'A', 'D', 'A']], primary_duration=2)
+    ccb.addCollision([5, 10], [['C', 'D', 'C'], ['C', 'A']], primary_duration=2)
+    ccb.addCollision([751, 190], [['A', 'D', 'C'], ['B']], primary_duration=2)
+    ccb.addCollision([81, 320], [['B', 'D', 'A', 'C'], ['A', 'D']], primary_duration=2)
+    ccb.addCollision([300, 100], [['A', 'D', 'A'], ['B', 'C', 'A']], primary_duration=2)
+    ccb.to_svg('unicolor.svg')
+    
+    # display the new animation
+    webbrowser.open('unicolor.svg')
+    
